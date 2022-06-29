@@ -72,7 +72,7 @@ export const NavBar = () => {
               <a href='#'>
                 <img src={navIcon2} alt='' />
               </a>
-              <a href='#'>
+              <a href='instagram.com/ryanghoward' target='_blank'>
                 <img src={navIcon3} alt='' />
               </a>
             </div>

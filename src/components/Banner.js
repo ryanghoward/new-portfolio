@@ -11,11 +11,11 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
-  const period = 2000;
+  const period = 1000;
 
   useEffect(() => {
     let ticker = setInterval(() => {
-      ticker();
+      tick();
     }, delta);
     return () => {
       clearInterval(ticker);
@@ -50,7 +50,7 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className='tagline'>Hello! Welcome to my Portfolio</span>
             <h1>
-              {`Hi, I'm Ryan `}
+              {`Hi, I'm Ryan, I am a `}
               <span className='wrap'>{text}</span>
             </h1>
             <p>
