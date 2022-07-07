@@ -22,8 +22,6 @@ export const Contact = () => {
     });
   };
 
-  const handleSubmit = () => {};
-
   return (
     <section className='contact' id='contact'>
       <Container>
@@ -34,7 +32,6 @@ export const Contact = () => {
           <Col md={6}>
             <h2>Get In Touch</h2>
             <form
-              onSubmit={handleSubmit}
               method='POST'
               action='https://getform.io/f/99fe3662-cb99-4771-8073-1a7bd0f92f96'
             >
