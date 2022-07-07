@@ -33,12 +33,17 @@ export const Contact = () => {
           </Col>
           <Col md={6}>
             <h2>Get In Touch</h2>
-            <form onSubmit={handleSubmit}>
+            <form
+              onSubmit={handleSubmit}
+              method='POST'
+              action='https://getform.io/f/99fe3662-cb99-4771-8073-1a7bd0f92f96'
+            >
               <Row>
                 <Col sm={6} className='px-1'>
                   <input
                     type='text'
                     value={formDetails.firstName}
+                    name='first'
                     placeholder='First Name'
                     onChange={(e) => onFormUpdate("firstName", e.target.value)}
                   />
@@ -47,6 +52,7 @@ export const Contact = () => {
                   <input
                     type='text'
                     value={formDetails.lastName}
+                    name='last'
                     placeholder='Last Name'
                     onChange={(e) => onFormUpdate("lastName", e.target.value)}
                   />
@@ -55,6 +61,7 @@ export const Contact = () => {
                   <input
                     type='email'
                     value={formDetails.email}
+                    name='email'
                     placeholder='Email'
                     onChange={(e) => onFormUpdate("email", e.target.value)}
                   />
@@ -63,6 +70,7 @@ export const Contact = () => {
                   <input
                     type='tel'
                     value={formDetails.phone}
+                    name='phone'
                     placeholder='Phone Number'
                     onChange={(e) => onFormUpdate("phone", e.target.value)}
                   />
@@ -71,6 +79,7 @@ export const Contact = () => {
                   <textarea
                     row='6'
                     value={formDetails.message}
+                    name='message'
                     placeholder='Message'
                     onChange={(e) => onFormUpdate("message", e.target.value)}
                   />
