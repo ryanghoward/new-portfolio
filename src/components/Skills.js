@@ -46,6 +46,8 @@ export const Skills = () => {
                 responsive={responsive}
                 infinite={true}
                 className='skill-slider'
+                autoPlay={true}
+                autoPlaySpeed={1000}
               >
                 <div className='item'>
                   <img src={HTML} alt='' />
