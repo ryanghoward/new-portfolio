@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import WMP from "../assets/images/projects/WaterMyPlants.PNG";
 import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
-import colorSharp2 from "../assets/images/color-sharp.png";
+// import colorSharp2 from "../assets/images/color-sharp.png";
 import "../App.css";
 import TrackVisibility from "react-on-screen";
 
@@ -57,7 +57,7 @@ export const Projects = () => {
               Check out these projects that I have worked on. More to come soon!
             </p>
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
-              <Nav
+              {/* <Nav
                 variant='pills'
                 className='nav-pills mb-5 justify-content-center align-items-center'
                 id='pills-tab'
@@ -71,7 +71,7 @@ export const Projects = () => {
                 <Nav.Item>
                   <Nav.Link eventKey='third'>Three</Nav.Link>
                 </Nav.Item>
-              </Nav>
+              </Nav> */}
               <Tab.Content>
                 <Tab.Pane eventKey='first'>
                   <Row>
@@ -90,7 +90,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className='background-image-right' src={colorSharp2} alt='xyz'></img>
+      {/* <img className='background-image-right' src={colorSharp2} alt='xyz'></img> */}
     </section>
   );
 };

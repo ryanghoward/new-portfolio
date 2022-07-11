@@ -23,7 +23,7 @@ import Docker from "../assets/images/skills/docker.webp";
 import ESLint from "../assets/images/skills/ESLint.png";
 import Postman from "../assets/images/skills/postman.png";
 // import Trello from "../assets/images/skills/trello.png";
-import colorSharp from "../assets/images/color-sharp.png";
+// import colorSharp from "../assets/images/color-sharp.png";
 
 export const Skills = () => {
   const responsive = {
@@ -58,6 +58,8 @@ export const Skills = () => {
                 className='skill-slider'
                 autoPlay={true}
                 autoPlaySpeed={1000}
+                showArrows={false}
+                removeArrowOnDeviceType={["tablet", "mobile"]}
               >
                 <div className='item'>
                   <img src={HTML} alt='' />
@@ -152,7 +154,7 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      <img className='background-image-left' src={colorSharp} alt='' />
+      {/* <img className='background-image-left' src={colorSharp} alt='' /> */}
     </section>
   );
 };
