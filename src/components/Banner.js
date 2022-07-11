@@ -14,18 +14,25 @@ export const Banner = () => {
             <span className='tagline'>
               Hello! I'm Ryan, welcome to my portfolio!
             </span>
+            <h1>I am a </h1>
             <TypeAnimation
+              wrapper='h1'
               cursor={true}
               repeat={Infinity}
               sequence={[
                 "Fullstack Developer",
                 1000,
+                "",
+                1000,
                 "UI/UX Designer",
+                2000,
+                "",
                 1000,
                 "Web Developer",
+                2000,
+                "",
                 1000,
               ]}
-              wrapper='h1'
             />
             <p>
               I am passionate about building excellent software that improves
