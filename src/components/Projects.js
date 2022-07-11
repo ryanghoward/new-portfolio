@@ -4,6 +4,8 @@ import WMP from "../assets/images/WaterMyPlants.PNG";
 import PP from "../assets/images/PotluckPlanner.PNG";
 import UDD from "../assets/images/UnderdogDevs.PNG";
 import colorSharp2 from "../assets/images/color-sharp.png";
+import "../App.css";
+import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
@@ -22,27 +24,34 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: UDD,
     },
-    {
-      title: "Water My Plants",
-      description: "Design & Development",
-      imgUrl: WMP,
-    },
-    {
-      title: "Potluck Planner",
-      description: "Design & Development",
-      imgUrl: PP,
-    },
-    {
-      title: "Underdog Devs",
-      description: "Design & Development",
-      imgUrl: UDD,
-    },
+    // {
+    //   title: "Water My Plants",
+    //   description: "Design & Development",
+    //   imgUrl: WMP,
+    // },
+    // {
+    //   title: "Potluck Planner",
+    //   description: "Design & Development",
+    //   imgUrl: PP,
+    // },
+    // {
+    //   title: "Underdog Devs",
+    //   description: "Design & Development",
+    //   imgUrl: UDD,
+    // },
   ];
   return (
     <section className='project' id='project'>
       <Container>
         <Row>
-          <Col>
+          <Col size={12}>
+            {/* <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__fadeIn" : ""
+                  }
+                > */}
             <h2>Projects</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -56,13 +65,13 @@ export const Projects = () => {
                 id='pills-tab'
               >
                 <Nav.Item>
-                  <Nav.Link eventKey='first'>Tab One</Nav.Link>
+                  <Nav.Link eventKey='first'>One</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey='second'>Tab Two</Nav.Link>
+                  <Nav.Link eventKey='second'>Two</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey='third'>Tab Three</Nav.Link>
+                  <Nav.Link eventKey='third'>Three</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
@@ -77,6 +86,9 @@ export const Projects = () => {
                 <Tab.Pane eventKey='third'>Lorem Ipsum</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
+            {/* </div>
+              )}
+            </TrackVisibility> */}
           </Col>
         </Row>
       </Container>
