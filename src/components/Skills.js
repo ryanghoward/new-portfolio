@@ -5,10 +5,14 @@ import JavaScript from "../assets/images/skills/javascript.png";
 import HTML from "../assets/images/skills/html.png";
 import CSS from "../assets/images/skills/css.png";
 import Node from "../assets/images/skills/node.png";
+import Express from "../assets/images/skills/express.png";
 import React from "../assets/images/skills/react.png";
 import Redux from "../assets/images/skills/redux.png";
 import Tailwind from "../assets/images/skills/tailwind.png";
 import PostgreSQL from "../assets/images/skills/PostgreSQL.png";
+import Heroku from "../assets/images/skills/heroku.svg";
+import Vercel from "../assets/images/skills/vercel.svg";
+import Bootstrap from "../assets/images/skills/bootstrap.png";
 import colorSharp from "../assets/images/color-sharp.png";
 
 export const Skills = () => {
@@ -62,6 +66,10 @@ export const Skills = () => {
                   <h5>Node.js</h5>
                 </div>
                 <div className='item'>
+                  <img src={Express} alt='' />
+                  <h5>Express</h5>
+                </div>
+                <div className='item'>
                   <img src={React} alt='' />
                   <h5>React</h5>
                 </div>
@@ -76,6 +84,18 @@ export const Skills = () => {
                 <div className='item'>
                   <img src={PostgreSQL} alt='' />
                   <h5>PostgreSQL</h5>
+                </div>
+                <div className='item'>
+                  <img src={Heroku} alt='' />
+                  <h5>Heroku</h5>
+                </div>
+                <div className='item'>
+                  <img src={Vercel} alt='' />
+                  <h5>Vercel</h5>
+                </div>
+                <div className='item'>
+                  <img src={Bootstrap} alt='' />
+                  <h5>Bootstrap</h5>
                 </div>
               </Carousel>
             </div>
