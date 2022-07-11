@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import WMP from "../assets/images/WaterMyPlants.PNG";
-import PP from "../assets/images/PotluckPlanner.PNG";
-import UDD from "../assets/images/UnderdogDevs.PNG";
+import WMP from "../assets/images/projects/WaterMyPlants.PNG";
+import PP from "../assets/images/projects/PotluckPlanner.PNG";
+import UDD from "../assets/images/projects/UnderdogDevs.PNG";
 import colorSharp2 from "../assets/images/color-sharp.png";
 import "../App.css";
 import TrackVisibility from "react-on-screen";
@@ -54,9 +54,7 @@ export const Projects = () => {
                 > */}
             <h2>Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis consequuntur voluptates libero qui odit nihil totam
-              quod sunt possimus eius!
+              Check out these projects that I have worked on. More to come soon!
             </p>
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
               <Nav

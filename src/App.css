@@ -275,7 +275,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 0;
   padding: 260px 0 100px 0;
   /* background-image: url("./assets/images/banner-bg.png"); */
-  background-image: url("./assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+  background-image: url("./assets/images/forrest.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -306,7 +306,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner p {
-  color: #b8b8b8;
+  /* color: #b8b8b8; */
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  /* border-radius: 1rem; */
+  /* text-align: center; */
+  color: white;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -334,9 +338,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 
-.banner img {
+/* .banner img {
   animation: updown 3s linear infinite;
-}
+} */
 
 @keyframes updown {
   0% {

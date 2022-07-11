@@ -1,14 +1,14 @@
 import Carousel from "react-multi-carousel";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-import JavaScript from "../assets/images/javascript.png";
-import HTML from "../assets/images/html.png";
-import CSS from "../assets/images/css.png";
-import Node from "../assets/images/node.png";
-import React from "../assets/images/react.png";
-import Redux from "../assets/images/redux.png";
-import Tailwind from "../assets/images/tailwind.png";
-import PostgreSQL from "../assets/images/PostgreSQL.png";
+import JavaScript from "../assets/images/skills/javascript.png";
+import HTML from "../assets/images/skills/html.png";
+import CSS from "../assets/images/skills/css.png";
+import Node from "../assets/images/skills/node.png";
+import React from "../assets/images/skills/react.png";
+import Redux from "../assets/images/skills/redux.png";
+import Tailwind from "../assets/images/skills/tailwind.png";
+import PostgreSQL from "../assets/images/skills/PostgreSQL.png";
 import colorSharp from "../assets/images/color-sharp.png";
 
 export const Skills = () => {
@@ -37,11 +37,7 @@ export const Skills = () => {
           <Col>
             <div className='skill-bx'>
               <h2>Skills</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
-              </p>
+              <p>These are the technologies I use</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
