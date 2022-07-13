@@ -5,7 +5,8 @@ import JavaScript from "../assets/images/skills/javascript.png";
 import HTML from "../assets/images/skills/html.png";
 import CSS from "../assets/images/skills/css.png";
 import Node from "../assets/images/skills/node.png";
-import Express from "../assets/images/skills/express.png";
+// import Express from "../assets/images/skills/express.png";
+import Cypress from "../assets/images/skills/cypress.svg";
 import React from "../assets/images/skills/react.png";
 import Redux from "../assets/images/skills/redux.png";
 import Tailwind from "../assets/images/skills/tailwind.png";
@@ -78,9 +79,13 @@ export const Skills = () => {
                   <h5>Node.js</h5>
                 </div>
                 <div className='item'>
+                  <img src={Cypress} alt='' />
+                  <h5>Cypress</h5>
+                </div>
+                {/* <div className='item'>
                   <img src={Express} alt='' />
                   <h5>Express</h5>
-                </div>
+                </div> */}
                 <div className='item'>
                   <img src={React} alt='' />
                   <h5>React</h5>
