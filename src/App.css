@@ -294,12 +294,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner h1 {
-  font-size: 65px;
+  font-size: 4.3rem;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   display: block;
+  text-decoration: underline;
+  color: #99d9d9;
 }
 
 .banner p {
@@ -332,10 +334,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .banner img {
-  animation: updown 3s linear infinite;
+  /* animation: updown 3s linear infinite; */
+  border-radius: 17rem;
 }
 
-@keyframes updown {
+/* @keyframes updown {
   0% {
     transform: translateY(-20px);
   }
@@ -345,7 +348,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   100% {
     transform: translateY(-20px);
   }
-}
+} */
 
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
@@ -550,7 +553,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .contact {
   background-image: url("./assets/images/blue.jpg");
-  background-position: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0 200px 0;
 }

@@ -11,11 +11,12 @@ import Cypress from "../assets/images/skills/cypress.svg";
 import Jest from "../assets/images/skills/jest.png";
 import React from "../assets/images/skills/react.png";
 import Redux from "../assets/images/skills/redux.png";
+import ReactRouter from "../assets/images/skills/reactrouter.png";
 import Tailwind from "../assets/images/skills/tailwind.png";
 import Heroku from "../assets/images/skills/heroku.svg";
-import Vercel from "../assets/images/skills/vercel.svg";
+import Vercel from "../assets/images/skills/vercel.png";
 import Bootstrap from "../assets/images/skills/bootstrap.png";
-import Next from "../assets/images/skills/next.png";
+import Next from "../assets/images/skills/nextjs.webp";
 import MUI from "../assets/images/skills/mui.png";
 import Less from "../assets/images/skills/less.webp";
 import Sass from "../assets/images/skills/sass.png";
@@ -55,12 +56,12 @@ export const Skills = () => {
           <Col>
             <div className='skill-bx'>
               <h2>Skills</h2>
-              <p>These are the technologies I use</p>
+              <p>These are the technologies I work with</p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className='skill-slider'
-                // autoPlay={true}
+                autoPlay={true}
                 autoPlaySpeed={1000}
                 showArrows={false}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
@@ -78,12 +79,32 @@ export const Skills = () => {
                   <h5>CSS</h5>
                 </div>
                 <div className='item'>
+                  <img src={Tailwind} alt='' />
+                  <h5>Tailwind</h5>
+                </div>
+                <div className='item'>
+                  <img src={Bootstrap} alt='' />
+                  <h5>Bootstrap</h5>
+                </div>
+                <div className='item'>
                   <img src={Node} alt='' />
                   <h5>Node.js</h5>
                 </div>
                 <div className='item'>
                   <img src={GitHub} alt='' />
                   <h5>GitHub</h5>
+                </div>
+                <div className='item'>
+                  <img src={React} alt='' />
+                  <h5>React</h5>
+                </div>
+                <div className='item'>
+                  <img src={Redux} alt='' />
+                  <h5>Redux</h5>
+                </div>
+                <div className='item'>
+                  <img src={ReactRouter} alt='' />
+                  <h5>React Router</h5>
                 </div>
                 <div className='item'>
                   <img src={Cypress} alt='' />
@@ -98,28 +119,12 @@ export const Skills = () => {
                   <h5>Express</h5>
                 </div> */}
                 <div className='item'>
-                  <img src={React} alt='' />
-                  <h5>React</h5>
-                </div>
-                <div className='item'>
-                  <img src={Redux} alt='' />
-                  <h5>Redux</h5>
-                </div>
-                <div className='item'>
-                  <img src={Tailwind} alt='' />
-                  <h5>Tailwind</h5>
-                </div>
-                <div className='item'>
                   <img src={Heroku} alt='' />
                   <h5>Heroku</h5>
                 </div>
                 <div className='item'>
                   <img src={Vercel} alt='' />
                   <h5>Vercel</h5>
-                </div>
-                <div className='item'>
-                  <img src={Bootstrap} alt='' />
-                  <h5>Bootstrap</h5>
                 </div>
                 <div className='item'>
                   <img src={Next} alt='' />

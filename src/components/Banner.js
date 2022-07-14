@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import Astronaut from "../assets/images/astronaut.svg";
+// import Astronaut from "../assets/images/astronaut.svg";
+import me from "../assets/images/me.jpg";
 import TypeAnimation from "react-type-animation";
 
 export const Banner = () => {
@@ -12,22 +13,31 @@ export const Banner = () => {
             {/* <span className='tagline'>
               Hello! I'm Ryan, welcome to my portfolio!
             </span> */}
-            <h1>Hello, I am Ryan G. Howard</h1>
+            {/* <h1>
+              Hello, my name is <br /> Ryan G. Howard <br /> and I am a:
+            </h1> */}
+            <h2>Hello, my name is</h2>
+            <h1>Ryan G. Howard</h1>
+            {/* <h4>I am a</h4> */}
             <TypeAnimation
-              wrapper='h1'
+              wrapper='h2'
               cursor={true}
               repeat={Infinity}
               sequence={[
-                "Fullstack Developer",
-                1000,
+                "Web Developer",
+                2000,
                 "",
                 1000,
                 "UI/UX Designer",
                 2000,
                 "",
                 1000,
-                "Web Developer",
-                2000,
+                "Fullstack Developer",
+                1000,
+                "",
+                1000,
+                "Tech Nerd",
+                1000,
                 "",
                 1000,
               ]}
@@ -44,7 +54,7 @@ export const Banner = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={Astronaut} alt='Header' borderRadius='50%' />
+            <img src={me} alt='Header' borderRadius='50%' />
           </Col>
         </Row>
       </Container>
