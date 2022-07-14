@@ -1,8 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-// import Astronaut from "../assets/images/astronaut.svg";
-// import guycoding from "../assets/images/guycoding.png";
-// import "animate.css";
+import Astronaut from "../assets/images/astronaut.svg";
 import TypeAnimation from "react-type-animation";
 
 export const Banner = () => {
@@ -11,10 +9,10 @@ export const Banner = () => {
       <Container>
         <Row className='align-items-center'>
           <Col xs={12} md={6} xl={7}>
-            <span className='tagline'>
+            {/* <span className='tagline'>
               Hello! I'm Ryan, welcome to my portfolio!
-            </span>
-            <h1>I am a </h1>
+            </span> */}
+            <h1>Hello, I am Ryan G. Howard</h1>
             <TypeAnimation
               wrapper='h1'
               cursor={true}
@@ -45,9 +43,9 @@ export const Banner = () => {
               Let's Connect! <ArrowRightCircle size={25} />
             </button>
           </Col>
-          {/* <Col xs={12} md={6} xl={5}>
-            <img src={guycoding} alt='Header' borderRadius='50%' />
-          </Col> */}
+          <Col xs={12} md={6} xl={5}>
+            <img src={Astronaut} alt='Header' borderRadius='50%' />
+          </Col>
         </Row>
       </Container>
     </section>
