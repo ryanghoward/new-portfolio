@@ -56,13 +56,13 @@ export const Skills = () => {
       <Container>
         <Row>
           <Col>
-            <div className='skill-bx'>
+            <div className='skill-box'>
               <h2>Skills</h2>
               <p>These are the technologies I work with</p>
               <Carousel
+                className='skill-slider'
                 responsive={responsive}
                 infinite={true}
-                className='skill-slider'
                 autoPlay={true}
                 autoPlaySpeed={1000}
                 showArrows={false}
@@ -185,7 +185,6 @@ export const Skills = () => {
           </Col>
         </Row>
       </Container>
-      {/* <img className='background-image-left' src={colorSharp} alt='' /> */}
     </section>
   );
 };
