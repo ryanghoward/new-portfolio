@@ -1,12 +1,11 @@
 import "../CSS Files/Footer.css";
 import { Container, Row, Col } from "react-bootstrap";
 // import logo from "../assets/images/main/RGH2.PNG";
-import logo from "../assets/images/main/logo.svg";
+// import logo from "../assets/images/main/logo.svg";
 import React from "react";
-// import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-import navIcon1 from "../assets/images/main/nav-icon1.svg";
-// import navIcon2 from "../assets/images/main/nav-icon2.svg";
-import navIcon3 from "../assets/images/main/nav-icon3.svg";
+import LinkedIn from "../assets/images/main/linkedin.svg";
+import Instagram from "../assets/images/main/instagram.svg";
+import GitHub from "../assets/images/skills/github.png";
 
 export const Footer = () => {
   return (
@@ -14,33 +13,22 @@ export const Footer = () => {
       <Container>
         <Row className='align-items-center'>
           <Col size={12} sm={6}>
-            <img src={logo} alt='Logo' />
+            {/* <img src={logo} alt='Logo' /> */}
+            <h1>RGH</h1>
           </Col>
           <Col size={12} sm={6} className='text-center text-sm-end'>
             <div className='social-icon'>
               <a
                 href='https://www.linkedin.com/in/ryangeorgehoward/'
                 target='_blank'
-                alt='LinkedIn Logo'
               >
-                <img src={navIcon1} alt='LinkedIn' />
-                {/* <img src={FaLinkedin} alt='LinkedIn' /> */}
+                <img src={LinkedIn} alt='LinkedIn' />
               </a>
-              {/* <a
-                href='https://github.com/ryanghoward'
-                target='_blank'
-                alt='Github'
-              >
-                <img src={navIcon2} alt='Icon' />
-                <img src={FaGithub} alt='Icon' />
-              </a> */}
-              <a
-                href='https://www.instagram.com/ryanghoward/'
-                target='_blank'
-                // alt='Instagram Logo'
-              >
-                <img src={navIcon3} alt='Instagram' />
-                {/* <img src={FaInstagram} alt='Instagram' /> */}
+              <a href='https://github.com/ryanghoward' target='_blank'>
+                <img src={GitHub} alt='Icon' />
+              </a>
+              <a href='https://www.instagram.com/ryanghoward/' target='_blank'>
+                <img src={Instagram} alt='Instagram' />
               </a>
             </div>
             <p>Copyright 2022. All Rights Reserved.</p>
