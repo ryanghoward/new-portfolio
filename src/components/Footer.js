@@ -3,9 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 // import logo from "../assets/images/main/RGH2.PNG";
 import logo from "../assets/images/main/logo.svg";
 import React from "react";
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+// import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import navIcon1 from "../assets/images/main/nav-icon1.svg";
-import navIcon2 from "../assets/images/main/nav-icon2.svg";
+// import navIcon2 from "../assets/images/main/nav-icon2.svg";
 import navIcon3 from "../assets/images/main/nav-icon3.svg";
 
 export const Footer = () => {
@@ -24,20 +24,23 @@ export const Footer = () => {
                 alt='LinkedIn Logo'
               >
                 <img src={navIcon1} alt='LinkedIn' />
+                {/* <img src={FaLinkedin} alt='LinkedIn' /> */}
               </a>
-              <a
+              {/* <a
                 href='https://github.com/ryanghoward'
                 target='_blank'
                 alt='Github'
               >
                 <img src={navIcon2} alt='Icon' />
-              </a>
+                <img src={FaGithub} alt='Icon' />
+              </a> */}
               <a
                 href='https://www.instagram.com/ryanghoward/'
                 target='_blank'
                 // alt='Instagram Logo'
               >
                 <img src={navIcon3} alt='Instagram' />
+                {/* <img src={FaInstagram} alt='Instagram' /> */}
               </a>
             </div>
             <p>Copyright 2022. All Rights Reserved.</p>
