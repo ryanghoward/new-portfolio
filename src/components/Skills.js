@@ -1,3 +1,4 @@
+import "../CSS Files/Skills.css";
 import Carousel from "react-multi-carousel";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
@@ -6,7 +7,6 @@ import HTML from "../assets/images/skills/html.png";
 import CSS from "../assets/images/skills/css.png";
 import Node from "../assets/images/skills/node.png";
 import GitHub from "../assets/images/skills/github.png";
-// import Express from "../assets/images/skills/express.png";
 import Cypress from "../assets/images/skills/cypress.svg";
 import Jest from "../assets/images/skills/jest.png";
 import React from "../assets/images/skills/react.png";
@@ -27,6 +27,7 @@ import MySQL from "../assets/images/skills/mysql.png";
 import Docker from "../assets/images/skills/docker.webp";
 import ESLint from "../assets/images/skills/ESLint.png";
 import Postman from "../assets/images/skills/postman.png";
+// import Express from "../assets/images/skills/express.png";
 // import Trello from "../assets/images/skills/trello.png";
 // import colorSharp from "../assets/images/color-sharp.png";
 

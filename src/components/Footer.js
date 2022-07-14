@@ -1,7 +1,12 @@
+import "../CSS Files/Footer.css";
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/images/RGH2.PNG";
+// import logo from "../assets/images/main/RGH2.PNG";
+import logo from "../assets/images/main/logo.svg";
 import React from "react";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import navIcon1 from "../assets/images/main/nav-icon1.svg";
+import navIcon2 from "../assets/images/main/nav-icon2.svg";
+import navIcon3 from "../assets/images/main/nav-icon3.svg";
 
 export const Footer = () => {
   return (
@@ -18,24 +23,24 @@ export const Footer = () => {
                 target='_blank'
                 alt='LinkedIn Logo'
               >
-                <img src={FaLinkedin} alt='LinkedIn' />
+                <img src={navIcon1} alt='LinkedIn' />
               </a>
               <a
                 href='https://github.com/ryanghoward'
                 target='_blank'
                 alt='Github'
               >
-                <img src={FaGithub} alt='Icon' />
+                <img src={navIcon2} alt='Icon' />
               </a>
               <a
                 href='https://www.instagram.com/ryanghoward/'
                 target='_blank'
                 // alt='Instagram Logo'
               >
-                <img src={FaInstagram} alt='Instagram' />
+                <img src={navIcon3} alt='Instagram' />
               </a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
+            <p>Copyright 2022. All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>

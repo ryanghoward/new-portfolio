@@ -1,7 +1,8 @@
+import "../CSS Files/Banner.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 // import Astronaut from "../assets/images/astronaut.svg";
-import me from "../assets/images/me.jpg";
+import me from "../assets/images/main/me.jpg";
 import TypeAnimation from "react-type-animation";
 
 export const Banner = () => {
@@ -13,12 +14,8 @@ export const Banner = () => {
             {/* <span className='tagline'>
               Hello! I'm Ryan, welcome to my portfolio!
             </span> */}
-            {/* <h1>
-              Hello, my name is <br /> Ryan G. Howard <br /> and I am a:
-            </h1> */}
             <h2>Hello, my name is</h2>
             <h1>Ryan G. Howard</h1>
-            {/* <h4>I am a</h4> */}
             <TypeAnimation
               wrapper='h2'
               cursor={true}

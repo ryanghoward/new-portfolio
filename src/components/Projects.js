@@ -3,9 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import WMP from "../assets/images/projects/WaterMyPlants.PNG";
 import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
-// import colorSharp2 from "../assets/images/color-sharp.png";
-import "../App.css";
-import TrackVisibility from "react-on-screen";
+import "../CSS Files/Projects.css";
+// import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [

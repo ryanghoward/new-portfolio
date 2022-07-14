@@ -1,7 +1,7 @@
+import "../CSS Files/Contact.css";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/images/contact-img.svg";
-import guycoding from "../assets/images/guycoding.png";
+import guycoding from "../assets/images/main/guycoding.png";
 
 export const Contact = () => {
   const initFormDetails = {

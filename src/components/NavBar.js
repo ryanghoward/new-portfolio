@@ -1,9 +1,11 @@
+import "../CSS Files/Navbar.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
-import logo from "../assets/images/RGH2.PNG";
-import navIcon1 from "../assets/images/nav-icon1.svg";
-import navIcon2 from "../assets/images/nav-icon2.svg";
-import navIcon3 from "../assets/images/nav-icon3.svg";
+// import logo from "../assets/images/main/RGH2.PNG";
+import logo from "../assets/images/main/logo.svg";
+import navIcon1 from "../assets/images/main/nav-icon1.svg";
+import navIcon2 from "../assets/images/main/nav-icon2.svg";
+import navIcon3 from "../assets/images/main/nav-icon3.svg";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
