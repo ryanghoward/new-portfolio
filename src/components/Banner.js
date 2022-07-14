@@ -1,7 +1,6 @@
 import "../CSS Files/Banner.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-// import Astronaut from "../assets/images/astronaut.svg";
 import me from "../assets/images/main/me.jpg";
 import TypeAnimation from "react-type-animation";
 
@@ -11,9 +10,6 @@ export const Banner = () => {
       <Container>
         <Row className='align-items-center'>
           <Col xs={12} md={6} xl={7}>
-            {/* <span className='tagline'>
-              Hello! I'm Ryan, welcome to my portfolio!
-            </span> */}
             <h2>Hello, my name is</h2>
             <h1>Ryan G. Howard</h1>
             <TypeAnimation
@@ -45,9 +41,10 @@ export const Banner = () => {
               for clients ranging from individuals and small-businesses, all the
               way up to large corporations. What could you accomplish if you had
               a software expert available at your fingertips? Let's find out!
+              View my work and skills below.
             </p>
-            <button onClick={() => console.log("connect")}>
-              Let's Connect! <ArrowRightCircle size={25} />
+            <button>
+              Let's Connect! <ArrowRightCircle size={30} />
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
