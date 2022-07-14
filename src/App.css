@@ -94,7 +94,7 @@ p.danger {
   color: red;
 }
 
-/************ Navbar Css ************/
+/************ Navbar ************/
 
 nav.navbar {
   padding: 18px 0;
@@ -269,13 +269,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
-/*********** Banner CSS ***********/
+/*********** Banner ***********/
 
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
   /* background-image: url("./assets/images/banner-bg.png"); */
-  background-image: url("./assets/images/forrest.jpg");
+  background-image: url("./assets/images/purplewaves.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -358,10 +358,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-right: 0.08em solid #666;
 }
 
-/************ Skills CSS ************/
+/************ Skills ************/
 
 .skill {
-  padding: 0 0 50px 0;
+  padding: 10rem;
   position: relative;
   background: #000;
 }
@@ -406,10 +406,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Projects ************/
 
 .project {
-  padding: 80px 0;
+  padding: 10rem;
   position: relative;
   background-color: black;
 }
@@ -469,6 +469,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
+/* ^ Not using these tabs at the moment
 .project .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
@@ -477,17 +478,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 
-/* .nav-link #projects-tabs-tab-first {
+.nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
-} 
+}
 
-.nav-link #projects-tabs-tab-second {
+.nav-link#projects-tabs-tab-second {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.nav-link #projects-tabs-tab-third {
+.nav-link#projects-tabs-tab-third {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 } */
@@ -552,18 +553,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Contact Css ************/
+/************ Contact ************/
 
 .contact {
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  /* background: url("./assets/images/codeblurry.jpg"); */
+  /* background: linear-gradient(90.21deg, #99d9d9 -5.91%, #001628 111.58%); */
+  background-image: url("./assets/images/purplewaves.jpg");
   background-position: cover;
   background-repeat: no-repeat;
   padding: 60px 0 200px 0;
 }
 
 .contact img {
-  width: 92%;
+  width: 90%;
+  animation: updown 3s linear infinite;
 }
 
 .contact h2 {
@@ -643,7 +645,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100%;
 }
 
-/************ Footer CSS ************/
+/************ Footer ************/
 
 .footer {
   padding: 0 0 50px 0;
