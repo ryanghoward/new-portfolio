@@ -67,4 +67,12 @@
     line-height: 1.5em;
     margin: 14px 0 75px 0;
   }
+
+  .item h5 {
+    font-size: 1rem;
+  }
+
+  .item img {
+    width: 40%;
+  }
 }

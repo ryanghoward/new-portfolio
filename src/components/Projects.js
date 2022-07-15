@@ -1,10 +1,9 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import WMP from "../assets/images/projects/WaterMyPlants.PNG";
 import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
 import "../CSS Files/Projects.css";
-// import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
@@ -43,25 +42,17 @@ export const Projects = () => {
     <section className='project' id='project'>
       <Container>
         <Row>
-          <Col size={12}>
+          <div className='projects' size={12}>
             <h2>Projects</h2>
             <p>
               Check out these projects that I have worked on. More to come soon!
             </p>
-            <Tab.Container id='projects-tabs' defaultActiveKey='first'>
-              <Tab.Content>
-                <Tab.Pane eventKey='first'>
-                  <Row>
-                    {projects.map((project, index) => {
-                      return <ProjectCard key={index} {...project} />;
-                    })}
-                  </Row>
-                </Tab.Pane>
-                <Tab.Pane eventKey='second'>Lorem Ipsum</Tab.Pane>
-                <Tab.Pane eventKey='third'>Lorem Ipsum</Tab.Pane>
-              </Tab.Content>
-            </Tab.Container>
-          </Col>
+            <div>
+              {projects.map((project, index) => {
+                return <ProjectCard key={index} {...project} />;
+              })}
+            </div>
+          </div>
         </Row>
       </Container>
     </section>
