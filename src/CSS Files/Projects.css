@@ -1,7 +1,11 @@
-.projects {
+.project {
+  width: 100%;
   padding: 10rem;
   position: relative;
   background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .project h2 {
@@ -60,6 +64,7 @@
 .proj-text h4 {
   font-size: 30px;
   font-weight: 700;
+  text-decoration: underline;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
@@ -67,7 +72,7 @@
 .proj-text span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 1rem;
   letter-spacing: 0.8px;
 }
 
@@ -90,7 +95,7 @@
   .project .projects p {
     text-align: center;
     font-size: 0.7rem;
-    width: 15rem;
+    width: 20rem;
   }
 
   .proj-imgbox {
@@ -110,7 +115,6 @@
   }
 
   .proj-text h4 {
-    text-decoration: underline;
   }
 
   .projects {

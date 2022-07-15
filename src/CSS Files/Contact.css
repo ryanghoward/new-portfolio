@@ -7,13 +7,14 @@
 
 .contact img {
   width: 90%;
-  animation: updown 3s linear infinite;
+  /* animation: updown 3s linear infinite; */
 }
 
 .contact h2 {
-  font-size: 45px;
+  font-size: 3rem;
+  text-align: center;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 .contact form input,
@@ -21,14 +22,14 @@
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
+  border-radius: 1rem;
   color: #fff;
-  margin: 0 0 8px 0;
-  padding: 18px 26px;
+  margin: 0 0 0.5rem 0;
+  padding: 1rem 2rem;
   font-weight: 500;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  transition: 0.3s ease-in-out;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  /* transition: 0.3s ease-in-out; */
 }
 
 .contact form input:focus,
@@ -39,7 +40,7 @@
 
 .contact form input::placeholder,
 .contact form textarea::placeholder {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #fff;
 }
@@ -51,15 +52,16 @@
 }
 
 .contact form button {
+  /* width: 100%; */
   font-weight: 700;
   color: #000;
   background-color: #fff;
-  padding: 14px 48px;
-  font-size: 18px;
-  margin-top: 25px;
-  border-radius: 0;
-  position: relative;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
   transition: 0.3s ease-in-out;
+  /* border: 1px solid red; */
 }
 
 .contact form button span {
@@ -85,4 +87,21 @@
 
 .contact form button:hover::before {
   width: 100%;
+}
+
+@media screen and (max-width: 420px) {
+  .contact {
+    padding-bottom: 4rem;
+  }
+
+  .contact img {
+    border: 1px solid red;
+    /* width: 50%; */
+    display: none;
+  }
+
+  .contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
 }
