@@ -9,18 +9,18 @@ import "../CSS Files/Projects.css";
 export const Projects = () => {
   const projects = [
     {
-      title: "Water My Plants",
-      description: "Design & Development",
+      title: "I Wet My Plants",
+      description: "Plant Watering Schedule App",
       imgUrl: WMP,
     },
     {
       title: "Potluck Planner",
-      description: "Design & Development",
+      description: "Potluck Organizing & Planning App",
       imgUrl: PP,
     },
     {
       title: "Underdog Devs",
-      description: "Design & Development",
+      description: "Underdog Devs Website",
       imgUrl: UDD,
     },
     // {
@@ -44,33 +44,11 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            {/* <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                > */}
             <h2>Projects</h2>
             <p>
               Check out these projects that I have worked on. More to come soon!
             </p>
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
-              {/* <Nav
-                variant='pills'
-                className='nav-pills mb-5 justify-content-center align-items-center'
-                id='pills-tab'
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey='first'>One</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey='second'>Two</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey='third'>Three</Nav.Link>
-                </Nav.Item>
-              </Nav> */}
               <Tab.Content>
                 <Tab.Pane eventKey='first'>
                   <Row>
@@ -83,13 +61,9 @@ export const Projects = () => {
                 <Tab.Pane eventKey='third'>Lorem Ipsum</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
-            {/* </div>
-              )}
-            </TrackVisibility> */}
           </Col>
         </Row>
       </Container>
-      {/* <img className='background-image-right' src={colorSharp2} alt='xyz'></img> */}
     </section>
   );
 };

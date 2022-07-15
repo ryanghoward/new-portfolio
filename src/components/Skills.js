@@ -61,11 +61,11 @@ export const Skills = () => {
               <p>These are the technologies I work with</p>
               <Carousel
                 className='skill-slider'
+                swipeable={true}
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={1000}
-                showArrows={false}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
               >
                 <div className='item'>
