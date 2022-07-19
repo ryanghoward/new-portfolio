@@ -2,12 +2,11 @@
   background-image: url("../assets/images/main/blue.jpg");
   background-position: top center;
   background-size: cover;
-  padding: 60px 0 200px 0;
+  padding: 4rem 0 13rem 0;
 }
 
 .contact img {
   width: 90%;
-  /* animation: updown 3s linear infinite; */
 }
 
 .contact h2 {
@@ -29,7 +28,6 @@
   font-weight: 500;
   font-size: 1.2rem;
   letter-spacing: 1px;
-  /* transition: 0.3s ease-in-out; */
 }
 
 .contact form input:focus,
@@ -52,7 +50,6 @@
 }
 
 .contact form button {
-  /* width: 100%; */
   font-weight: 700;
   color: #000;
   background-color: #fff;
@@ -60,33 +57,15 @@
   font-size: 1rem;
   margin-top: 2rem;
   border-radius: 1rem;
-  transition: 0.3s ease-in-out;
-  /* border: 1px solid red; */
 }
 
 .contact form button span {
   z-index: 1;
-  position: relative;
 }
 
 .contact form button:hover {
+  background-color: #333;
   color: #fff;
-}
-
-.contact form button::before {
-  content: "";
-  background: #121212;
-  width: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  transition: 0.3s ease-in-out;
-}
-
-.contact form button:hover::before {
-  width: 100%;
 }
 
 @media screen and (max-width: 420px) {
@@ -96,7 +75,6 @@
 
   .contact img {
     border: 1px solid red;
-    /* width: 50%; */
     display: none;
   }
 

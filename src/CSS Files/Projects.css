@@ -28,6 +28,9 @@
 
 .proj-imgbox img {
   height: 20rem;
+  width: auto;
+  position: top center;
+  size: cover;
   margin: 1rem 0;
 }
 

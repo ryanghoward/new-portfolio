@@ -12,7 +12,6 @@ import Cypress from "../assets/images/skills/cypress.svg";
 import Jest from "../assets/images/skills/jest.png";
 import React from "../assets/images/skills/react.png";
 import Redux from "../assets/images/skills/redux.png";
-import ReactRouter from "../assets/images/skills/reactrouter.png";
 import Tailwind from "../assets/images/skills/tailwind.png";
 import Heroku from "../assets/images/skills/heroku.svg";
 import Vercel from "../assets/images/skills/vercel.png";
@@ -26,8 +25,11 @@ import SQLite from "../assets/images/skills/SQLite.png";
 import PostgreSQL from "../assets/images/skills/PostgreSQL.png";
 import MySQL from "../assets/images/skills/mysql.png";
 import Docker from "../assets/images/skills/docker.webp";
-import ESLint from "../assets/images/skills/ESLint.png";
 import Postman from "../assets/images/skills/postman.png";
+
+//* These PNGs aren't the right size
+// import ESLint from "../assets/images/skills/ESLint.png";
+// import ReactRouter from "../assets/images/skills/reactrouter.png";
 // import Express from "../assets/images/skills/express.png";
 // import Trello from "../assets/images/skills/trello.png";
 // import colorSharp from "../assets/images/color-sharp.png";

@@ -1,8 +1,6 @@
 import "../CSS Files/Navbar.css";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useState, useEffect } from "react";
-// import logo from "../assets/images/main/RGH2.PNG";
-import logo from "../assets/images/main/logo.svg";
 import LinkedIn from "../assets/images/main/linkedin.svg";
 import GitHub from "../assets/images/skills/github.png";
 import Instagram from "../assets/images/main/instagram.svg";

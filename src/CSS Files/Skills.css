@@ -1,5 +1,5 @@
 .skill {
-  padding: 10rem;
+  padding: 5rem 0;
   position: relative;
   background: #000;
 }
@@ -9,7 +9,6 @@
   border-radius: 4rem;
   text-align: center;
   padding: 4rem 3rem;
-  /* border: 1px solid red; */
 }
 
 .skill h2 {
