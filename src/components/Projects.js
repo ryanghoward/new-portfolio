@@ -12,32 +12,30 @@ export const Projects = () => {
       title: "VHCL",
       description: "Turo Landing Page Clone",
       imgUrl: VHCL,
+      siteUrl: "https://ryanghoward.github.io/VHCL/",
+      codeUrl: "https://github.com/ryanghoward/VHCL",
     },
     {
       title: "I Wet My Plants",
       description: "Plant Watering Schedule App",
       imgUrl: WMP,
+      siteUrl: "https://water-my-plants-9-build-week.vercel.app/",
+      codeUrl: "https://github.com/Build-Week-Water-My-Plants-8/front-end",
     },
     {
       title: "Potluck Planner",
       description: "Potluck Organizing & Planning App",
       imgUrl: PP,
+      siteUrl: "https://potluck1-front-end.vercel.app/",
+      codeUrl: "https://github.com/Potluck-Planner-A",
     },
     {
       title: "Underdog Devs",
       description: "Underdog Devs Website",
       imgUrl: UDD,
+      siteUrl: "https://www.underdogdevs.org/",
+      codeUrl: "https://github.com/BloomTech-Labs/underdog-devs-fe-a",
     },
-    // {
-    //   title: "Potluck Planner",
-    //   description: "Design & Development",
-    //   imgUrl: PP,
-    // },
-    // {
-    //   title: "Underdog Devs",
-    //   description: "Design & Development",
-    //   imgUrl: UDD,
-    // },
   ];
   return (
     <section className='project' id='project'>

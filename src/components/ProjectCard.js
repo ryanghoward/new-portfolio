@@ -1,7 +1,13 @@
 import { Col } from "react-bootstrap";
 import "../CSS Files/Projects.css";
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
+export const ProjectCard = ({
+  title,
+  description,
+  imgUrl,
+  siteUrl,
+  codeUrl,
+}) => {
   return (
     <Col sm={6} md={4}>
       <div className='proj-imgbox'>
@@ -9,6 +15,13 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
         <div className='proj-text'>
           <h4>{title}</h4>
           <span>{description}</span>
+          <br />
+          <a href={siteUrl} target='_blank'>
+            View Site
+          </a>
+          <a href={codeUrl} target='_blank'>
+            View Code
+          </a>
         </div>
       </div>
     </Col>

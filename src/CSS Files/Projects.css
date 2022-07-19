@@ -21,16 +21,10 @@
 }
 
 .proj-imgbox {
-  /* border: 1px solid orange; */
   position: center;
   overflow: hidden;
   margin-bottom: 2rem;
 }
-
-/* .proj-imgbox,
-.proj-text {
-  border: 1px solid magenta;
-} */
 
 .proj-text {
   text-align: center;
@@ -39,7 +33,6 @@
 .proj-text h4 {
   font-size: 30px;
   font-weight: 700;
-  text-decoration: underline;
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
@@ -49,6 +42,13 @@
   font-weight: 400;
   font-size: 1rem;
   letter-spacing: 0.8px;
+}
+
+.proj-text a {
+  text-decoration: underline;
+  font-size: 0.7rem;
+  color: white;
+  margin: 1rem;
 }
 
 @media screen and (max-width: 420px) {
@@ -77,9 +77,6 @@
   .proj-imgbox,
   .proj-text {
     margin-top: 1rem;
-  }
-
-  .proj-text h4 {
   }
 
   .projects {
