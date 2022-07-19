@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import LinkedIn from "../assets/images/main/linkedin.svg";
 import GitHub from "../assets/images/skills/github.png";
 import Instagram from "../assets/images/main/instagram.svg";
+import Resume from "../assets/images/main/Ryan G. Howard Resume 2022.pdf";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -63,6 +64,16 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink("projects")}
             >
               Projects
+            </Nav.Link>
+            <Nav.Link
+              href={Resume}
+              target='_blank'
+              className={
+                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              Resume
             </Nav.Link>
           </Nav>
           <span className='navbar-text'>
