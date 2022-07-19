@@ -47,11 +47,11 @@ export const Projects = () => {
               Check out these projects that I have worked on. <br /> More to
               come soon!
             </p>
-            <div>
+            <Row>
               {projects.map((project, index) => {
                 return <ProjectCard key={index} {...project} />;
               })}
-            </div>
+            </Row>
           </div>
         </Row>
       </Container>

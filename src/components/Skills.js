@@ -108,10 +108,10 @@ export const Skills = () => {
                   <img src={Redux} alt='' />
                   <h5>Redux</h5>
                 </div>
-                <div className='item'>
+                {/* <div className='item'>
                   <img src={ReactRouter} alt='' />
                   <h5>React Router</h5>
-                </div>
+                </div> */}
                 <div className='item'>
                   <img src={Cypress} alt='' />
                   <h5>Cypress</h5>
@@ -168,10 +168,10 @@ export const Skills = () => {
                   <img src={Docker} alt='' />
                   <h5>Docker</h5>
                 </div>
-                <div className='item'>
+                {/* <div className='item'>
                   <img src={ESLint} alt='' />
                   <h5>ESLint</h5>
-                </div>
+                </div> */}
                 <div className='item'>
                   <img src={Postman} alt='' />
                   <h5>Postman</h5>

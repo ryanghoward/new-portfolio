@@ -14,7 +14,8 @@
   margin-bottom: 1.25rem;
   display: block;
   text-decoration: underline;
-  color: #99d9d9;
+  font-style: italic;
+  color: #01ffe7;
 }
 
 .banner p {
@@ -48,22 +49,7 @@
 
 .banner img {
   border-radius: 17rem;
-  /* animation: updown 3s linear infinite; */
 }
-
-/*^ Not using, but keeping for future reference
-
-/* @keyframes updown {
-  0% {
-    transform: translateY(-20px);
-  }
-  50% {
-    transform: translateY(20px);
-  }
-  100% {
-    transform: translateY(-20px);
-  }
-} */
 
 @media screen and (max-width: 420px) {
   .banner {
@@ -97,4 +83,4 @@
   .banner button svg {
     display: none;
   }
-} ;
+}
