@@ -1,11 +1,7 @@
 .project {
-  width: 100%;
-  padding: 10rem;
+  width: 100vw;
   position: relative;
   background-color: black;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .project h2 {
@@ -24,41 +20,20 @@
   width: 56%;
 }
 
-/* .proj-imgbx {
-  position: relative;
-  border-radius: 2rem;
+.proj-imgbox {
+  /* border: 1px solid orange; */
+  position: center;
   overflow: hidden;
   margin-bottom: 2rem;
-} */
-
-/* .proj-imgbx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  opacity: 0.85;
-  position: absolute;
-  width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
-} */
-
-.proj-imgbx:hover::before {
-  height: 100%;
 }
 
-/* .proj-text {
-  position: absolute;
-  text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
-  width: 100%;
+/* .proj-imgbox,
+.proj-text {
+  border: 1px solid magenta;
 } */
 
-.proj-imgbx:hover .proj-text:hover {
-  top: 50%;
-  opacity: 1;
+.proj-text {
+  text-align: center;
 }
 
 .proj-text h4 {
@@ -76,15 +51,6 @@
   letter-spacing: 0.8px;
 }
 
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
-}
-
 @media screen and (max-width: 420px) {
   .project h2 {
     font-size: 2rem;
@@ -93,7 +59,6 @@
   }
 
   .project .projects p {
-    text-align: center;
     font-size: 0.7rem;
     width: 20rem;
   }

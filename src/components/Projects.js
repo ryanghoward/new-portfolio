@@ -3,10 +3,16 @@ import { ProjectCard } from "./ProjectCard";
 import WMP from "../assets/images/projects/WaterMyPlants.PNG";
 import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
+import VHCL from "../assets/images/projects/VHCL.PNG";
 import "../CSS Files/Projects.css";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "VHCL",
+      description: "Turo Landing Page Clone",
+      imgUrl: VHCL,
+    },
     {
       title: "I Wet My Plants",
       description: "Plant Watering Schedule App",
@@ -22,11 +28,6 @@ export const Projects = () => {
       description: "Underdog Devs Website",
       imgUrl: UDD,
     },
-    // {
-    //   title: "Water My Plants",
-    //   description: "Design & Development",
-    //   imgUrl: WMP,
-    // },
     // {
     //   title: "Potluck Planner",
     //   description: "Design & Development",
@@ -45,7 +46,8 @@ export const Projects = () => {
           <div className='projects' size={12}>
             <h2>Projects</h2>
             <p>
-              Check out these projects that I have worked on. More to come soon!
+              Check out these projects that I have worked on. <br /> More to
+              come soon!
             </p>
             <div>
               {projects.map((project, index) => {
