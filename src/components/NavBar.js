@@ -19,9 +19,11 @@ export const NavBar = () => {
         setScrolled(false);
       }
     };
+
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
   };
@@ -117,9 +119,9 @@ export const NavBar = () => {
                 <img src={Instagram} alt='Instagram' />
               </a>
             </div>
-            <button className='vvd' onClick={() => console.log("connect")}>
+            {/* <button className='vvd' onClick={() => console.log("connect")}>
               <span>Let's Connect</span>
-            </button>
+            </button> */}
           </span>
         </Navbar.Collapse>
       </Container>

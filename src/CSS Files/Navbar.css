@@ -120,11 +120,12 @@ nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
+  height: 100%;
 }
 
 nav.navbar .navbar-toggler-icon {
-  width: 24px;
-  height: 17px;
+  width: 1.5rem;
+  height: 1.125rem;
   background-image: none;
   position: relative;
   border-bottom: 2px solid #fff;
