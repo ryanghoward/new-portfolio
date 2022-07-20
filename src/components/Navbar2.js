@@ -1,28 +1,74 @@
-import React from "react";
-import logo from "../assets/favicon.ico";
+import React, { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
 import "../CSS Files/Navbar2.css";
-import "bootstrap/dist/css/bootstrap.css";
-import { Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-scroll";
+import Resume from "../assets/images/main/Ryan G. Howard Resume 2022.pdf";
 
-const Navbar2 = () => {
+const Navbar = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
+
+  const closeMobileMenu = () => {
+    setClick(false);
+  };
+
   return (
-    <div>
-      <Navbar bg='dark' variant='dark' sticky='top'>
-        <Navbar.Brand>
-          {/* <img src={logo} width='5px' height='5px' /> */}
-          RGH
-        </Navbar.Brand>
-
-        <Nav>
-          <Nav.Link href='products'>Products</Nav.Link>
-          <Nav.Link href='blog'>Blog</Nav.Link>
-          <Nav.Link href='about-us'>About Us</Nav.Link>
-          <Nav.Link href='Contact Us'>Contact Us</Nav.Link>
-        </Nav>
-      </Navbar>
-      {/* <div className='content'>This is content.</div> */}
-    </div>
+    <IconContext.Provider value={{ color: "fff" }}>
+      <div className='nav'>
+        <div className='nav-container'>
+          <a href='/' className='nav-logo' onClick={closeMobileMenu}>
+            RGH
+          </a>
+          <div className='menu-icon' onClick={handleClick}>
+            {click ? <FaTimes /> : <FaBars />}
+          </div>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className='nav-item'>
+              <Link to='home' smooth={true} duration={500}>
+                <a href='/' className='nav-links' onClick={closeMobileMenu}>
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='skills' smooth={true} duration={500}>
+                <a href='/' className='nav-links' onClick={closeMobileMenu}>
+                  Skills
+                </a>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='projects' smooth={true} duration={500}>
+                <a href='/' className='nav-links' onClick={closeMobileMenu}>
+                  Projects
+                </a>
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link to='contact' smooth={true} duration={500}>
+                <a href='/' className='nav-links' onClick={closeMobileMenu}>
+                  Contact
+                </a>
+              </Link>
+            </li>
+            <a
+              href={Resume}
+              target='_blank'
+              rel='noreferrer'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Resume
+            </a>
+          </ul>
+        </div>
+      </div>
+    </IconContext.Provider>
   );
 };
 
-export default Navbar2;
+export default Navbar;
