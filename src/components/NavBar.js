@@ -5,6 +5,7 @@ import LinkedIn from "../assets/images/main/linkedin.svg";
 import GitHub from "../assets/images/skills/github.png";
 import Instagram from "../assets/images/main/instagram.svg";
 import Resume from "../assets/images/main/Ryan G. Howard Resume 2022.pdf";
+import { Link } from "react-scroll";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -29,7 +30,7 @@ export const NavBar = () => {
   return (
     <Navbar expand='lg' className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href='#home'>
+        <Navbar.Brand href='home'>
           {/* <img src={logo} alt='Logo' /> */}
         </Navbar.Brand>
         <h1>RGH</h1>
@@ -39,31 +40,37 @@ export const NavBar = () => {
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
             <Nav.Link
-              href='#home'
+              href='home'
               className={
                 activeLink === "home" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("home")}
             >
-              Home
+              <Link to='home' smooth={true} duration={300}>
+                Home
+              </Link>
             </Nav.Link>
             <Nav.Link
-              href='#skills'
+              href='skills'
               className={
                 activeLink === "skills" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("skills")}
             >
-              Skills
+              <Link to='skills' smooth={true} duration={300}>
+                Skills
+              </Link>
             </Nav.Link>
             <Nav.Link
-              href='#projects'
+              href='Projects'
               className={
                 activeLink === "projects" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
-              Projects
+              <Link to='projects' smooth={true} duration={300}>
+                Projects
+              </Link>
             </Nav.Link>
             <Nav.Link
               href={Resume}
@@ -81,14 +88,23 @@ export const NavBar = () => {
               <a
                 href='https://www.linkedin.com/in/ryangeorgehoward/'
                 target='_blank'
+                rel='noreferrer'
               >
-                <img src={LinkedIn} alt='' />
+                <img src={LinkedIn} alt='LinkedIn' />
               </a>
-              <a href='https://github.com/ryanghoward/' target='_blank'>
-                <img src={GitHub} alt='' />
+              <a
+                href='https://github.com/ryanghoward/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={GitHub} alt='GitHub' />
               </a>
-              <a href='https://www.instagram.com/ryanghoward/' target='_blank'>
-                <img src={Instagram} alt='' />
+              <a
+                href='https://www.instagram.com/ryanghoward/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img src={Instagram} alt='Instagram' />
               </a>
             </div>
             <button className='vvd' onClick={() => console.log("connect")}>

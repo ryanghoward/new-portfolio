@@ -3,7 +3,6 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 9999;
   transition: 0.32 ease-in-out;
 }
 
@@ -21,8 +20,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
-  opacity: 0.75;
+  font-size: 1rem;
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
@@ -169,4 +167,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
+}
+
+@media screen and (max-width: 420px) {
+  .vvd {
+    display: none;
+  }
 }
