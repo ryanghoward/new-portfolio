@@ -32,6 +32,10 @@ export const Contact = () => {
           </Col>
           <Col md={6}>
             <h2>Get In Touch</h2>
+            <p>
+              Shoot me an email at <u>ryghoward@gmail.com</u> or submit the form
+              below
+            </p>
             <form
               method='POST'
               action='https://getform.io/f/99fe3662-cb99-4771-8073-1a7bd0f92f96'

@@ -16,6 +16,10 @@
   margin-bottom: 2rem;
 }
 
+.contact p {
+  text-align: center;
+}
+
 .contact form input,
 .contact form textarea {
   width: 100%;

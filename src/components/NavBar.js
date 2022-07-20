@@ -76,11 +76,22 @@ export const NavBar = () => {
               href={Resume}
               target='_blank'
               className={
-                activeLink === "projects" ? "active navbar-link" : "navbar-link"
+                activeLink === "resume" ? "active navbar-link" : "navbar-link"
               }
               onClick={() => onUpdateActiveLink("projects")}
             >
               Resume
+            </Nav.Link>
+            <Nav.Link
+              href='contact'
+              className={
+                activeLink === "contact" ? "active navbar-link" : "navbar-link"
+              }
+              onClick={() => onUpdateActiveLink("projects")}
+            >
+              <Link to='contact' smooth={true} duration={300}>
+                Contact
+              </Link>
             </Nav.Link>
           </Nav>
           <span className='navbar-text'>

@@ -51,6 +51,12 @@
   border-radius: 17rem;
 }
 
+/* .inner-banner {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+} */
+
 @media screen and (max-width: 420px) {
   .banner {
     padding: 5rem;
