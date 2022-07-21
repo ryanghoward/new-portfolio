@@ -1,6 +1,6 @@
 import "../CSS Files/Banner.css";
 import { Container, Row, Col } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+// import { ArrowRightCircle } from "react-bootstrap-icons";
 import me from "../assets/images/main/me.jpg";
 import TypeAnimation from "react-type-animation";
 
@@ -44,9 +44,10 @@ export const Banner = () => {
                 you had a software expert available at your fingertips? Let's
                 find out! View my work and skills below.
               </p>
-              <button>
+              {/* Keep? Yeet? Not sure */}
+              {/* <button>
                 See More <ArrowRightCircle size={30} />
-              </button>
+              </button> */}
             </Col>
             <Col xs={12} md={6} xl={5}>
               <img src={me} alt='Header' borderRadius='50%' />

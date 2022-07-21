@@ -6,13 +6,9 @@ import GitHub from "../assets/images/skills/github.png";
 import Instagram from "../assets/images/main/instagram.svg";
 import Resume from "../assets/images/main/Ryan G. Howard Resume 2022.pdf";
 import { Link } from "react-scroll";
-// import { FaBars, FaTimes } from "react-icons/fa";
 
 export const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
-  // const [activeLink, setActiveLink] = useState("home");
-  // const [nav, setNav] = useState(false);
-  // const handleClick = () => setNav(!nav);
 
   useEffect(() => {
     const onScroll = () => {
@@ -30,10 +26,6 @@ export const NavBar = () => {
   return (
     <Navbar expand='lg' className={scrolled ? "scrolled" : ""}>
       <Container>
-        {/* <h1>RGH</h1> */}
-        {/* <Navbar.Toggle onClick={handleClick} className='nav-icon'>
-          {!nav ? <FaBars /> : <FaTimes />}
-        </Navbar.Toggle> */}
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
             <Nav.Link className={"home" ? "active navbar-link" : "navbar-link"}>
@@ -60,34 +52,29 @@ export const NavBar = () => {
               </Link>
             </Nav.Link>
           </Nav>
-          <span className='navbar-text'>
-            <div className='social-icon'>
-              <a
-                href='https://www.linkedin.com/in/ryangeorgehoward/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img src={LinkedIn} alt='LinkedIn' />
-              </a>
-              <a
-                href='https://github.com/ryanghoward/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img src={GitHub} alt='GitHub' />
-              </a>
-              <a
-                href='https://www.instagram.com/ryanghoward/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img src={Instagram} alt='Instagram' />
-              </a>
-            </div>
-            {/* <button className='vvd' onClick={() => console.log("connect")}>
-              <span>Let's Connect</span>
-            </button> */}
-          </span>
+          <div className='social-icons'>
+            <a
+              href='https://www.linkedin.com/in/ryangeorgehoward/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={LinkedIn} alt='LinkedIn' />
+            </a>
+            <a
+              href='https://github.com/ryanghoward/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={GitHub} alt='GitHub' />
+            </a>
+            <a
+              href='https://www.instagram.com/ryanghoward/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={Instagram} alt='Instagram' />
+            </a>
+          </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
