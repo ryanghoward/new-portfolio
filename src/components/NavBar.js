@@ -6,10 +6,13 @@ import GitHub from "../assets/images/skills/github.png";
 import Instagram from "../assets/images/main/instagram.svg";
 import Resume from "../assets/images/main/Ryan G. Howard Resume 2022.pdf";
 import { Link } from "react-scroll";
+// import { FaBars, FaTimes } from "react-icons/fa";
 
 export const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home");
   const [scrolled, setScrolled] = useState(false);
+  // const [activeLink, setActiveLink] = useState("home");
+  // const [nav, setNav] = useState(false);
+  // const handleClick = () => setNav(!nav);
 
   useEffect(() => {
     const onScroll = () => {
@@ -24,72 +27,34 @@ export const NavBar = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const onUpdateActiveLink = (value) => {
-    setActiveLink(value);
-  };
-
   return (
     <Navbar expand='lg' className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href='home'>
-          {/* <img src={logo} alt='Logo' /> */}
-        </Navbar.Brand>
-        <h1>RGH</h1>
-        <Navbar.Toggle aria-controls='basic-navbar-nav'>
-          <span className='navbar-toggler-icon'></span>
-        </Navbar.Toggle>
+        {/* <h1>RGH</h1> */}
+        {/* <Navbar.Toggle onClick={handleClick} className='nav-icon'>
+          {!nav ? <FaBars /> : <FaTimes />}
+        </Navbar.Toggle> */}
         <Navbar.Collapse id='basic-navbar-nav'>
           <Nav className='me-auto'>
-            <Nav.Link
-              href='home'
-              className={
-                activeLink === "home" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("home")}
-            >
+            <Nav.Link className={"home" ? "active navbar-link" : "navbar-link"}>
               <Link to='home' smooth={true} duration={300}>
                 Home
               </Link>
             </Nav.Link>
-            <Nav.Link
-              href='skills'
-              className={
-                activeLink === "skills" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("skills")}
-            >
+            <Nav.Link className='navbar-link'>
               <Link to='skills' smooth={true} duration={300}>
                 Skills
               </Link>
             </Nav.Link>
-            <Nav.Link
-              href='Projects'
-              className={
-                activeLink === "projects" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
+            <Nav.Link className='navbar-link'>
               <Link to='projects' smooth={true} duration={300}>
                 Projects
               </Link>
             </Nav.Link>
-            <Nav.Link
-              href={Resume}
-              target='_blank'
-              className={
-                activeLink === "resume" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
+            <Nav.Link href={Resume} target='_blank' className='navbar-link'>
               Resume
             </Nav.Link>
-            <Nav.Link
-              href='contact'
-              className={
-                activeLink === "contact" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("projects")}
-            >
+            <Nav.Link className='navbar-link'>
               <Link to='contact' smooth={true} duration={300}>
                 Contact
               </Link>

@@ -45,7 +45,7 @@ export const Banner = () => {
                 find out! View my work and skills below.
               </p>
               <button>
-                Let's Connect! <ArrowRightCircle size={30} />
+                See More <ArrowRightCircle size={30} />
               </button>
             </Col>
             <Col xs={12} md={6} xl={5}>
