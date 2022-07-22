@@ -63,7 +63,6 @@ export const Skills = () => {
               <p>These are the technologies I work with</p>
               <Carousel
                 className='skill-slider'
-                swipeable={true}
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}

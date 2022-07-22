@@ -44,8 +44,8 @@ export const Projects = () => {
           <div className='projects' size={12}>
             <h2>Projects</h2>
             <p>
-              Check out these projects that I have worked on. <br /> More to
-              come soon!
+              Check out these projects that I have built or contributed to. More
+              to come soon!
             </p>
             <Row>
               {projects.map((project, index) => {

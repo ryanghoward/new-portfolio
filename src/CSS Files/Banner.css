@@ -1,15 +1,10 @@
 .banner {
   padding: 15rem;
+  height: 100vh;
   background-image: url("../assets/images/main/blue.jpg");
-  /* transform: scaleX(-1); */
   background-position: top center;
   background-size: cover;
   width: 100vw;
-}
-
-.banner::after {
-  /* background-image: url("../assets/images/main/blue.jpg"); */
-  transform: scaleX(-1);
 }
 
 .banner h1 {
@@ -56,12 +51,6 @@
 .banner img {
   border-radius: 17rem;
 }
-
-/* .inner-banner {
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-} */
 
 @media screen and (max-width: 420px) {
   .banner {
