@@ -13,7 +13,6 @@ export const Contact = () => {
   };
 
   const [formDetails, setFormDetails] = useState(initFormDetails);
-  const [buttonText, setButtonText] = useState("Send");
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
@@ -33,8 +32,11 @@ export const Contact = () => {
           <Col md={6}>
             <h2>Get In Touch</h2>
             <p>
-              Shoot me an email at <u>ryghoward@gmail.com</u> or submit the form
-              below
+              Shoot me an email at{" "}
+              <u>
+                <i>ryghoward@gmail.com</i>
+              </u>{" "}
+              or submit the form below
             </p>
             <form
               method='POST'
@@ -86,7 +88,7 @@ export const Contact = () => {
                     onChange={(e) => onFormUpdate("message", e.target.value)}
                   />
                   <button type='submit'>
-                    <span>{buttonText}</span>
+                    <span>Send</span>
                   </button>
                 </Col>
                 {status.message && (

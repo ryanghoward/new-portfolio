@@ -54,6 +54,7 @@
 }
 
 .contact form button {
+  width: 100%;
   font-weight: 700;
   color: #000;
   background-color: #fff;
@@ -61,10 +62,6 @@
   font-size: 1rem;
   margin-top: 2rem;
   border-radius: 1rem;
-}
-
-.contact form button span {
-  z-index: 1;
 }
 
 .contact form button:hover {
@@ -78,7 +75,6 @@
   }
 
   .contact img {
-    border: 1px solid red;
     display: none;
   }
 
