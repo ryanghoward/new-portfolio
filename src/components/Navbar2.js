@@ -7,47 +7,78 @@ import GitHub from "../assets/images/skills/github.png";
 import Instagram from "../assets/images/main/instagram.svg";
 import Resume from "../assets/images/main/Ryan G. Howard Resume 2022.pdf";
 
-function Navbar2() {
-  const [color, setColor] = useState(false);
+export const Navbar2 = () => {
+  // const [color, setColor] = useState(false);
   const [nav, setNav] = useState(false);
+  const handleClick = () => setNav(!nav);
 
-  const handleClick = () => {
-    setNav(!nav);
-  };
+  // const changeColor = () => {
+  //   if (window.scrollY >= 100) {
+  //     setColor(true);
+  //   } else {
+  //     setColor(false);
+  //   }
+  // };
 
-  const changeColor = () => {
-    if (window.scrollY >= 100) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
-
-  window.addEventListener("scroll", changeColor);
+  // window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div className='header'>
       <Link to='/'>
         <h1>RGH</h1>
       </Link>
       <ul className={nav ? "nav-menu active" : "nav-menu "}>
-        <a>
-          <Link to='home' smooth={true} duration={300}>
-            Home
-          </Link>
-          <Link to='skills' smooth={true} duration={300}>
-            Skills
-          </Link>
-          <Link to='projects' smooth={true} duration={300}>
-            Projects
-          </Link>
-          <Link to='contact' smooth={true} duration={300}>
-            Contact
-          </Link>
-          <Link href={Resume} target='_blank' rel='noreferrer'>
+        <Link
+          className='navbar-link'
+          onClick={handleClick}
+          to='home'
+          smooth={true}
+          duration={300}
+        >
+          Home
+        </Link>
+        <Link
+          className='navbar-link'
+          onClick={handleClick}
+          to='skills'
+          smooth={true}
+          duration={300}
+        >
+          Skills
+        </Link>
+        <Link
+          className='navbar-link'
+          onClick={handleClick}
+          to='projects'
+          smooth={true}
+          duration={300}
+        >
+          Projects
+        </Link>
+        <Link
+          className='navbar-link'
+          onClick={handleClick}
+          to='contact'
+          smooth={true}
+          duration={300}
+        >
+          Contact
+        </Link>
+        <Link
+        // className='navbar-link'
+        // href={Resume}
+        // target='_blank'
+        // rel='noreferrer'
+        >
+          <a
+            className='navbar-link'
+            href={Resume}
+            target='_blank'
+            rel='noreferrer'
+          >
             Resume
-          </Link>
-        </a>
+          </a>
+        </Link>
       </ul>
       <div className='social-icons'>
         <a
@@ -81,6 +112,4 @@ function Navbar2() {
       </div>
     </div>
   );
-}
-
-export default Navbar2;
+};
