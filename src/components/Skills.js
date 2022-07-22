@@ -83,7 +83,7 @@ export const Skills = () => {
                 </div>
                 <div className='item'>
                   <img src={Tailwind} alt='' />
-                  <h5>Tailwind</h5>
+                  <h5>TailwindCSS</h5>
                 </div>
                 <div className='item'>
                   <img src={Bootstrap} alt='' />
