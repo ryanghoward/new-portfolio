@@ -13,6 +13,7 @@ export const Banner = () => {
             <Col xs={12} md={6} xl={7}>
               <h2>Hello, my name is</h2>
               <h1>Ryan G. Howard</h1>
+              <h3>I am a</h3>
               <TypeAnimation
                 wrapper='h2'
                 cursor={true}
@@ -26,7 +27,7 @@ export const Banner = () => {
                   2000,
                   "",
                   1000,
-                  "Fullstack Developer",
+                  "Full Stack Developer",
                   1000,
                   "",
                   1000,
