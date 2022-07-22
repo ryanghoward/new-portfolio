@@ -16,11 +16,11 @@ export const Projects = () => {
       codeUrl: "https://github.com/ryanghoward/VHCL",
     },
     {
-      title: "I Wet My Plants",
-      description: "Plant Watering Schedule App",
-      imgUrl: WMP,
-      siteUrl: "https://water-my-plants-9-build-week.vercel.app/",
-      codeUrl: "https://github.com/Build-Week-Water-My-Plants-8/front-end",
+      title: "Underdog Devs",
+      description: "Underdog Devs Website",
+      imgUrl: UDD,
+      siteUrl: "https://www.underdogdevs.org/",
+      codeUrl: "https://github.com/BloomTech-Labs/underdog-devs-fe-a",
     },
     {
       title: "Potluck Planner",
@@ -30,11 +30,11 @@ export const Projects = () => {
       codeUrl: "https://github.com/Potluck-Planner-A",
     },
     {
-      title: "Underdog Devs",
-      description: "Underdog Devs Website",
-      imgUrl: UDD,
-      siteUrl: "https://www.underdogdevs.org/",
-      codeUrl: "https://github.com/BloomTech-Labs/underdog-devs-fe-a",
+      title: "I Wet My Plants",
+      description: "Plant Watering Schedule App",
+      imgUrl: WMP,
+      siteUrl: "https://water-my-plants-9-build-week.vercel.app/",
+      codeUrl: "https://github.com/Build-Week-Water-My-Plants-8/front-end",
     },
   ];
   return (

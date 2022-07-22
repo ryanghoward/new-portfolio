@@ -39,6 +39,7 @@
 }
 
 .proj-text h4 {
+  text-decoration: underline;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -53,10 +54,15 @@
 }
 
 .proj-text a {
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 0.7rem;
   color: white;
   margin: 1rem;
+}
+
+.proj-text a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 420px) {
