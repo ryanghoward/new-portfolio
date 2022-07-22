@@ -26,7 +26,12 @@ export const NavBar = () => {
   return (
     <Navbar expand='lg' className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Collapse id='basic-navbar-nav'>
+        <Navbar.Toggle
+          aria-controls='responsive-navbar-nav'
+          bg='dark'
+          variant='dark'
+        />
+        <Navbar.Collapse id='responsive-navbar-nav'>
           <Nav className='me-auto'>
             <Nav.Link className={"home" ? "active navbar-link" : "navbar-link"}>
               <Link to='home' smooth={true} duration={300}>
