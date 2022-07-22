@@ -126,7 +126,7 @@
     hue-rotate(346deg) brightness(95%) contrast(86%);
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
   .footer h1 {
     text-align: center;
     font-size: 1.5rem;

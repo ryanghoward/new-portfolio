@@ -69,7 +69,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 540px) {
   .contact {
     padding-bottom: 4rem;
   }
