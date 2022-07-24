@@ -21,6 +21,7 @@ import MUI from "../assets/images/skills/mui.png";
 import Less from "../assets/images/skills/less.webp";
 import Sass from "../assets/images/skills/sass.png";
 import SC from "../assets/images/skills/styledcomponents.png";
+import Firebase from "../assets/images/skills/firebase.png";
 import SQLite from "../assets/images/skills/SQLite.png";
 import PostgreSQL from "../assets/images/skills/PostgreSQL.png";
 import MySQL from "../assets/images/skills/mysql.png";
@@ -65,7 +66,7 @@ export const Skills = () => {
                 className='skill-slider'
                 responsive={responsive}
                 infinite={true}
-                autoPlay={true}
+                // autoPlay={true}
                 autoPlaySpeed={1000}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
               >
@@ -152,6 +153,10 @@ export const Skills = () => {
                 <div className='item'>
                   <img src={SC} alt='' />
                   <h5>Styled Components</h5>
+                </div>
+                <div className='item'>
+                  <img src={Firebase} alt='' />
+                  <h5>Firebase</h5>
                 </div>
                 <div className='item'>
                   <img src={SQLite} alt='' />
