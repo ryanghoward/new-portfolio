@@ -66,7 +66,7 @@ export const Skills = () => {
                 className='skill-slider'
                 responsive={responsive}
                 infinite={true}
-                // autoPlay={true}
+                autoPlay={true}
                 autoPlaySpeed={1000}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
               >
