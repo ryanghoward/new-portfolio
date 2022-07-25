@@ -4,12 +4,20 @@ import WMP from "../assets/images/projects/WaterMyPlants.PNG";
 import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
 import VHCL from "../assets/images/projects/VHCL.PNG";
-import code6 from "../assets/images/projects/code6.jpg";
+import FF from "../assets/images/projects/FakeflixHomepage.PNG";
+// import code6 from "../assets/images/projects/code6.jpg";
 import code8 from "../assets/images/projects/code8.jpg";
 import "../CSS Files/Projects.css";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "Fakeflix",
+      description: "Netflix clone",
+      imgUrl: FF,
+      siteUrl: "https://fakeflix-be7a7.web.app/",
+      codeUrl: "https://github.com/ryanghoward/Fakeflix",
+    },
     {
       title: "VHCL",
       description: "Turo Landing Page Clone",
@@ -37,13 +45,6 @@ export const Projects = () => {
       imgUrl: WMP,
       siteUrl: "https://water-my-plants-9-build-week.vercel.app/",
       codeUrl: "https://github.com/Build-Week-Water-My-Plants-8/front-end",
-    },
-    {
-      title: "Placeholder",
-      description: "Lorem Ipsum",
-      imgUrl: code6,
-      siteUrl: "/",
-      codeUrl: "/",
     },
     {
       title: "Placeholder",
