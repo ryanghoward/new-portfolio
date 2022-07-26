@@ -5,7 +5,6 @@ import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
 import VHCL from "../assets/images/projects/VHCL.PNG";
 import FF from "../assets/images/projects/FakeflixHomepage.PNG";
-// import code6 from "../assets/images/projects/code6.jpg";
 import code8 from "../assets/images/projects/code8.jpg";
 import "../CSS Files/Projects.css";
 
