@@ -62,9 +62,6 @@ export const Navbar = () => {
         >
           Resume
         </a>
-        {/* <a className='navbar-link' href={Resume} download>
-          Download Resume
-        </a> */}
       </ul>
       <div className='social-icons'>
         <a

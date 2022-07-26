@@ -16,10 +16,10 @@ export const ProjectCard = ({
           <h4>{title}</h4>
           <span>{description}</span>
           <br />
-          <a href={siteUrl} target='_blank'>
+          <a href={siteUrl} target='_blank' rel='noreferrer'>
             View Site
           </a>
-          <a href={codeUrl} target='_blank'>
+          <a href={codeUrl} target='_blank' rel='noreferrer'>
             View Code
           </a>
         </div>

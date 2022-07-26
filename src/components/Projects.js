@@ -12,14 +12,14 @@ export const Projects = () => {
   const projects = [
     {
       title: "Fakeflix",
-      description: "Netflix clone",
+      description: "Netflix Clone",
       imgUrl: FF,
       siteUrl: "https://fakeflix-be7a7.web.app/",
       codeUrl: "https://github.com/ryanghoward/Fakeflix",
     },
     {
       title: "VHCL",
-      description: "Turo Landing Page Clone",
+      description: "Turo Clone",
       imgUrl: VHCL,
       siteUrl: "https://ryanghoward.github.io/VHCL/",
       codeUrl: "https://github.com/ryanghoward/VHCL",

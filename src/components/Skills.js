@@ -70,11 +70,13 @@ export const Skills = () => {
                 swipeable={false}
                 draggable={false}
                 className='skill-slider'
-                arrows={false}
+                arrows={true}
+                removeArrowOnDeviceType={["tablet", "mobile"]}
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={1000}
+                customTransition='all 1000ms'
                 transitionDuration={1000}
               >
                 <div className='item'>
