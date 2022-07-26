@@ -1,6 +1,8 @@
 import "../CSS Files/Skills.css";
-import Carousel from "react-multi-carousel";
 import { Container, Row, Col } from "react-bootstrap";
+
+// Carousel Stuff
+import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 // Images
@@ -17,7 +19,7 @@ import Redux from "../assets/images/skills/redux.png";
 import Tailwind from "../assets/images/skills/tailwind.png";
 import Heroku from "../assets/images/skills/heroku.svg";
 import Vercel from "../assets/images/skills/vercel.png";
-import Bootstrap from "../assets/images/skills/bootstrap.png";
+import Bootstrap from "../assets/images/skills/bootstrap.svg";
 import Next from "../assets/images/skills/nextjs.webp";
 import MUI from "../assets/images/skills/mui.png";
 import Less from "../assets/images/skills/less.webp";
@@ -29,13 +31,12 @@ import PostgreSQL from "../assets/images/skills/PostgreSQL.png";
 import MySQL from "../assets/images/skills/mysql.png";
 import Docker from "../assets/images/skills/docker.webp";
 import Postman from "../assets/images/skills/postman.png";
-
-//* These PNGs aren't the right size
-// import ESLint from "../assets/images/skills/ESLint.png";
-// import ReactRouter from "../assets/images/skills/reactrouter.png";
-// import Express from "../assets/images/skills/express.png";
-// import Trello from "../assets/images/skills/trello.png";
-// import colorSharp from "../assets/images/color-sharp.png";
+import ESLint from "../assets/images/skills/ESLint.png";
+import ReactRouter from "../assets/images/skills/react-router.svg";
+import Express from "../assets/images/skills/express.svg";
+import NPM from "../assets/images/skills/npm.png";
+import Bun from "../assets/images/skills/bun.png";
+import Vue from "../assets/images/skills/vue.png";
 
 export const Skills = () => {
   const responsive = {
@@ -56,6 +57,7 @@ export const Skills = () => {
       items: 1,
     },
   };
+
   return (
     <section className='skill' id='skills'>
       <Container>
@@ -65,12 +67,15 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>These are the technologies I work with</p>
               <Carousel
+                swipeable={false}
+                draggable={false}
                 className='skill-slider'
+                arrows={false}
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
                 autoPlaySpeed={1000}
-                removeArrowOnDeviceType={["tablet", "mobile"]}
+                transitionDuration={1000}
               >
                 <div className='item'>
                   <img src={JavaScript} alt='' />
@@ -93,8 +98,24 @@ export const Skills = () => {
                   <h5>Bootstrap</h5>
                 </div>
                 <div className='item'>
+                  <img src={Sass} alt='' />
+                  <h5>Sass</h5>
+                </div>
+                <div className='item'>
+                  <img src={Less} alt='' />
+                  <h5>Less</h5>
+                </div>
+                <div className='item'>
                   <img src={Node} alt='' />
                   <h5>Node.js</h5>
+                </div>
+                <div className='item'>
+                  <img src={NPM} alt='' />
+                  <h5>npm</h5>
+                </div>
+                <div className='item'>
+                  <img src={Bun} alt='' />
+                  <h5>Bun</h5>
                 </div>
                 <div className='item'>
                   <img src={GitHub} alt='' />
@@ -109,13 +130,17 @@ export const Skills = () => {
                   <h5>React</h5>
                 </div>
                 <div className='item'>
+                  <img src={Vue} alt='' />
+                  <h5>Vue</h5>
+                </div>
+                <div className='item'>
                   <img src={Redux} alt='' />
                   <h5>Redux</h5>
                 </div>
-                {/* <div className='item'>
+                <div className='item'>
                   <img src={ReactRouter} alt='' />
                   <h5>React Router</h5>
-                </div> */}
+                </div>
                 <div className='item'>
                   <img src={Cypress} alt='' />
                   <h5>Cypress</h5>
@@ -124,10 +149,10 @@ export const Skills = () => {
                   <img src={Jest} alt='' />
                   <h5>Jest</h5>
                 </div>
-                {/* <div className='item'>
+                <div className='item'>
                   <img src={Express} alt='' />
                   <h5>Express</h5>
-                </div> */}
+                </div>
                 <div className='item'>
                   <img src={Heroku} alt='' />
                   <h5>Heroku</h5>
@@ -143,14 +168,6 @@ export const Skills = () => {
                 <div className='item'>
                   <img src={MUI} alt='' />
                   <h5>MUI</h5>
-                </div>
-                <div className='item'>
-                  <img src={Less} alt='' />
-                  <h5>Less</h5>
-                </div>
-                <div className='item'>
-                  <img src={Sass} alt='' />
-                  <h5>Sass</h5>
                 </div>
                 <div className='item'>
                   <img src={SC} alt='' />
@@ -176,18 +193,14 @@ export const Skills = () => {
                   <img src={Docker} alt='' />
                   <h5>Docker</h5>
                 </div>
-                {/* <div className='item'>
+                <div className='item'>
                   <img src={ESLint} alt='' />
                   <h5>ESLint</h5>
-                </div> */}
+                </div>
                 <div className='item'>
                   <img src={Postman} alt='' />
                   <h5>Postman</h5>
                 </div>
-                {/* <div className='item'>
-                  <img src={Trello} alt='' />
-                  <h5>Trello</h5>
-                </div> */}
               </Carousel>
             </div>
           </Col>

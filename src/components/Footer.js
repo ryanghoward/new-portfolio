@@ -37,7 +37,7 @@ export const Footer = () => {
                 <img src={Instagram} alt='Instagram' />
               </a>
             </div>
-            <p>Copyright 2022 RGH. All Rights Reserved.</p>
+            <p>© Copyright 2022 RGH. All Rights Reserved.</p>
           </Col>
         </Row>
       </Container>

@@ -4,8 +4,20 @@
   background: #000;
 }
 
+.item img {
+  /* border: 1px solid red; */
+  height: 9rem;
+  object-fit: contain;
+}
+
+.item h5 {
+  /* border: 1px solid blue; */
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
 .skill-box {
-  background: #111;
+  background: #222;
   border-radius: 4rem;
   text-align: center;
   padding: 4rem 3rem;
