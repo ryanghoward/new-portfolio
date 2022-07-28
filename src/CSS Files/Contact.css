@@ -38,6 +38,11 @@
   text-align: center;
 }
 
+.contact,
+h1 {
+  text-shadow: 2px 2px #000;
+}
+
 .contact form input,
 .contact form textarea {
   width: 100%;
@@ -93,8 +98,7 @@
   }
 
   .contact img {
-    display: flex;
-    align-items: center;
+    display: none;
   }
 
   .contact h2 {
