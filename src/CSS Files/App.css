@@ -27,14 +27,14 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding: 75px;
+  scroll-padding: 5rem;
 }
 
 body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #000 !important;
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
 }
@@ -84,7 +84,7 @@ select:focus {
 @media screen and (min-width: 1700px) {
   main .container {
     max-width: 100%;
-    padding: 0 150px;
+    padding: 0 9.5rem;
   }
 }
 

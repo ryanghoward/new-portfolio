@@ -10,8 +10,6 @@
 .banner h1 {
   font-size: 4.3rem;
   font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1;
   margin-bottom: 1.25rem;
   display: block;
   text-decoration: underline;
@@ -22,8 +20,6 @@
 .banner p {
   color: white;
   font-size: 1.1rem;
-  letter-spacing: 0.05rem;
-  line-height: 1.5em;
   width: 96%;
 }
 

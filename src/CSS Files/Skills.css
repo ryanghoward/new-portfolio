@@ -2,16 +2,15 @@
   padding: 5rem 0;
   position: center;
   background: #000;
+  margin-top: 10rem;
 }
 
 .item img {
-  /* border: 1px solid red; */
   height: 9rem;
   object-fit: contain;
 }
 
 .item h5 {
-  /* border: 1px solid blue; */
   margin-top: 1rem;
   font-size: 1.25rem;
 }
@@ -33,7 +32,7 @@
   font-size: 1.2rem;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px 0 75px 0;
+  margin: 1rem 0 5rem 0;
 }
 
 .skill-slider {
@@ -61,7 +60,6 @@
   }
 
   .skill-box {
-    /* width: 99%; */
     text-align: center;
     margin: auto;
   }
@@ -72,11 +70,7 @@
   }
 
   .skill p {
-    color: #b8b8b8;
     font-size: 0.8rem;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
   }
 
   .item h5 {

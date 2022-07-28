@@ -1,7 +1,8 @@
 .project {
   width: 100vw;
   position: relative;
-  background-color: black;
+  background-color: #000;
+  margin: 10rem 0;
 }
 
 .project h2 {
@@ -15,9 +16,8 @@
   font-size: 1rem;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px auto 30px auto;
+  margin: 1rem auto 2rem auto;
   text-align: center;
-  width: 56%;
 }
 
 .proj-imgbox {
@@ -40,17 +40,14 @@
 
 .proj-text h4 {
   text-decoration: underline;
-  font-size: 30px;
+  font-size: 1.9rem;
   font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
 }
 
 .proj-text span {
   font-style: italic;
   font-weight: 400;
   font-size: 1rem;
-  letter-spacing: 0.8px;
 }
 
 .proj-text a {
@@ -66,6 +63,10 @@
 }
 
 @media screen and (max-width: 540px) {
+  .project {
+    margin: 0;
+  }
+
   .project h2 {
     font-size: 2rem;
     text-align: center;

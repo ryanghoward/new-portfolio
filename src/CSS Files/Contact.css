@@ -24,7 +24,7 @@
 .contact form textarea {
   width: 100%;
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid #b8b8b8;
   border-radius: 1rem;
   color: #fff;
   margin: 0 0 0.5rem 0;
@@ -36,7 +36,7 @@
 
 .contact form input:focus,
 .contact form textarea:focus {
-  background: rgba(255, 255, 255, 1);
+  background: #fff;
   color: #121212;
 }
 
