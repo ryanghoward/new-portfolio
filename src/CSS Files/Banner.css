@@ -12,9 +12,10 @@
   font-weight: 700;
   margin-bottom: 1.25rem;
   display: block;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-style: italic;
-  color: #01ffe7;
+  /* color: #01ffe7; */
+  color: #fff;
 }
 
 .banner p {

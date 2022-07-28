@@ -5,6 +5,8 @@ import me from "../assets/images/main/me.jpg";
 import TypeAnimation from "react-type-animation";
 import { Link } from "react-scroll";
 
+import { GlitchText } from "glitch-text";
+
 export const Banner = () => {
   return (
     <section className='banner' id='home'>
@@ -13,7 +15,10 @@ export const Banner = () => {
           <Row className='align-items-center'>
             <Col xs={12} md={6} xl={7}>
               <h2>Hello, my name is</h2>
-              <h1>Ryan G. Howard</h1>
+              <h1>
+                <GlitchText theme='purple' text={"Ryan G. Howard"} />
+              </h1>
+              {/* <h1>Ryan G. Howard</h1> */}
               <h3>I am a</h3>
               <TypeAnimation
                 wrapper='h2'
