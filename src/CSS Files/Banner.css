@@ -51,6 +51,7 @@
 @media screen and (max-width: 1200px) {
   .banner {
     padding: 5rem;
+    height: 83vh;
   }
 
   .banner h1 {
