@@ -1,9 +1,9 @@
 .banner {
   padding: 15rem;
-  height: 100vh;
   background-image: url("../assets/images/main/blue.jpg");
   background-position: top;
   background-size: cover;
+  /* border: 1px solid red; */
 }
 
 .banner h1 {

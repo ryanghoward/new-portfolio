@@ -1,7 +1,6 @@
 import "../CSS Files/Contact.css";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import guycoding from "../assets/images/main/guycoding.png";
 import MeAndJasper from "../assets/images/main/Jasper.png";
 
 export const Contact = () => {

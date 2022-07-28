@@ -93,7 +93,8 @@
   }
 
   .contact img {
-    display: none;
+    display: flex;
+    align-items: center;
   }
 
   .contact h2 {
