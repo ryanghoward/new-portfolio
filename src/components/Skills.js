@@ -40,6 +40,8 @@ import Vue from "../assets/images/skills/vue.png";
 import Angular from "../assets/images/skills/angular.png";
 import Remix from "../assets/images/skills/remix.svg";
 import Vite from "../assets/images/skills/vitejs.svg";
+import VSCode from "../assets/images/skills/vscode.png";
+import IntelliJ from "../assets/images/skills/intellij.png";
 // import MongoDB from "../assets/images/skills/MongoDB.png";
 
 export const Skills = () => {
@@ -78,15 +80,11 @@ export const Skills = () => {
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 responsive={responsive}
                 infinite={true}
-                // autoPlay={true}
+                autoPlay={true}
                 autoPlaySpeed={1000}
                 customTransition='all 1000ms'
                 transitionDuration={1000}
               >
-                <div className='item'>
-                  <img src={JavaScript} alt='' />
-                  <h5>JavaScript</h5>
-                </div>
                 <div className='item'>
                   <img src={HTML} alt='' />
                   <h5>HTML</h5>
@@ -94,6 +92,10 @@ export const Skills = () => {
                 <div className='item'>
                   <img src={CSS} alt='' />
                   <h5>CSS</h5>
+                </div>
+                <div className='item'>
+                  <img src={JavaScript} alt='' />
+                  <h5>JavaScript</h5>
                 </div>
                 <div className='item'>
                   <img src={Tailwind} alt='' />
@@ -112,12 +114,24 @@ export const Skills = () => {
                   <h5>Less</h5>
                 </div>
                 <div className='item'>
+                  <img src={MUI} alt='' />
+                  <h5>MUI</h5>
+                </div>
+                <div className='item'>
+                  <img src={SC} alt='' />
+                  <h5>Styled Components</h5>
+                </div>
+                <div className='item'>
                   <img src={Node} alt='' />
                   <h5>Node.js</h5>
                 </div>
                 <div className='item'>
                   <img src={NPM} alt='' />
                   <h5>npm</h5>
+                </div>
+                <div className='item'>
+                  <img src={Vite} alt='' />
+                  <h5>Vite.js</h5>
                 </div>
                 <div className='item'>
                   <img src={Bun} alt='' />
@@ -136,6 +150,10 @@ export const Skills = () => {
                   <h5>React</h5>
                 </div>
                 <div className='item'>
+                  <img src={ReactRouter} alt='' />
+                  <h5>React Router</h5>
+                </div>
+                <div className='item'>
                   <img src={Redux} alt='' />
                   <h5>Redux</h5>
                 </div>
@@ -152,12 +170,12 @@ export const Skills = () => {
                   <h5>Remix</h5>
                 </div>
                 <div className='item'>
-                  <img src={Vite} alt='' />
-                  <h5>Vite.js</h5>
+                  <img src={VSCode} alt='' />
+                  <h5>VSCode</h5>
                 </div>
                 <div className='item'>
-                  <img src={ReactRouter} alt='' />
-                  <h5>React Router</h5>
+                  <img src={IntelliJ} alt='' />
+                  <h5>IntelliJ</h5>
                 </div>
                 <div className='item'>
                   <img src={Cypress} alt='' />
@@ -182,14 +200,6 @@ export const Skills = () => {
                 <div className='item'>
                   <img src={Next} alt='' />
                   <h5>Next.js</h5>
-                </div>
-                <div className='item'>
-                  <img src={MUI} alt='' />
-                  <h5>MUI</h5>
-                </div>
-                <div className='item'>
-                  <img src={SC} alt='' />
-                  <h5>Styled Components</h5>
                 </div>
                 <div className='item'>
                   <img src={Firebase} alt='' />
