@@ -37,6 +37,10 @@ import Express from "../assets/images/skills/express.svg";
 import NPM from "../assets/images/skills/npm.png";
 import Bun from "../assets/images/skills/bun.png";
 import Vue from "../assets/images/skills/vue.png";
+import Angular from "../assets/images/skills/angular.png";
+import Remix from "../assets/images/skills/remix.svg";
+import Vite from "../assets/images/skills/vitejs.svg";
+// import MongoDB from "../assets/images/skills/MongoDB.png";
 
 export const Skills = () => {
   const responsive = {
@@ -74,7 +78,7 @@ export const Skills = () => {
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 responsive={responsive}
                 infinite={true}
-                autoPlay={true}
+                // autoPlay={true}
                 autoPlaySpeed={1000}
                 customTransition='all 1000ms'
                 transitionDuration={1000}
@@ -132,12 +136,24 @@ export const Skills = () => {
                   <h5>React</h5>
                 </div>
                 <div className='item'>
+                  <img src={Redux} alt='' />
+                  <h5>Redux</h5>
+                </div>
+                <div className='item'>
                   <img src={Vue} alt='' />
                   <h5>Vue</h5>
                 </div>
                 <div className='item'>
-                  <img src={Redux} alt='' />
-                  <h5>Redux</h5>
+                  <img src={Angular} alt='' />
+                  <h5>Angular</h5>
+                </div>
+                <div className='item'>
+                  <img src={Remix} alt='' />
+                  <h5>Remix</h5>
+                </div>
+                <div className='item'>
+                  <img src={Vite} alt='' />
+                  <h5>Vite.js</h5>
                 </div>
                 <div className='item'>
                   <img src={ReactRouter} alt='' />
@@ -191,6 +207,10 @@ export const Skills = () => {
                   <img src={MySQL} alt='' />
                   <h5>MySQL</h5>
                 </div>
+                {/* <div className='item'>
+                  <img src={MongoDB} alt='' />
+                  <h5>MongoDB</h5>
+                </div> */}
                 <div className='item'>
                   <img src={Docker} alt='' />
                   <h5>Docker</h5>
