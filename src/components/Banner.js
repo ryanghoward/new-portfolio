@@ -2,6 +2,7 @@ import "../CSS Files/Banner.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import me from "../assets/images/main/me.jpg";
+import MeAndJasper from "../assets/images/main/Jasper.png";
 import TypeAnimation from "react-type-animation";
 import { Link } from "react-scroll";
 
@@ -57,9 +58,12 @@ export const Banner = () => {
                 </button>
               </Link>
             </Col>
-            <Col xs={12} md={6} xl={5}>
+            <Col xs={12} md={6} xl={4}>
               <img src={me} alt='Header' borderRadius='50%' />
             </Col>
+            {/* <Col xs={12} md={6} xl={5}>
+              <img src={MeAndJasper} alt='Header' borderRadius='50%' />
+            </Col> */}
           </Row>
         </Container>
       </div>

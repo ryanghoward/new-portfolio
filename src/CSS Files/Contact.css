@@ -7,6 +7,24 @@
 
 .contact img {
   width: 90%;
+  border-radius: 5rem;
+}
+
+.contact img {
+  border-radius: 17rem;
+  animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
 }
 
 .contact h2 {

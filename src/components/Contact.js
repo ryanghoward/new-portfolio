@@ -2,6 +2,7 @@ import "../CSS Files/Contact.css";
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import guycoding from "../assets/images/main/guycoding.png";
+import MeAndJasper from "../assets/images/main/Jasper.png";
 
 export const Contact = () => {
   const initFormDetails = {
@@ -26,8 +27,8 @@ export const Contact = () => {
     <section className='contact' id='contact'>
       <Container>
         <Row>
-          <Col md={6}>
-            <img src={guycoding} alt='Contact Us'></img>
+          <Col md={5}>
+            <img src={MeAndJasper} alt='Contact Us'></img>
           </Col>
           <Col md={6}>
             <h2>Get In Touch</h2>
