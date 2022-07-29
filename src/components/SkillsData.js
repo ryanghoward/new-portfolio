@@ -32,7 +32,6 @@ import Express from "../assets/images/skills/express.svg";
 import ESLint from "../assets/images/skills/ESLint.png";
 import GitHub from "../assets/images/skills/github.png";
 import Git from "../assets/images/skills/git.png";
-import ReactRouter from "../assets/images/skills/react-router.svg";
 import VSCode from "../assets/images/skills/vscode.png";
 import IntelliJ from "../assets/images/skills/intellij.png";
 
@@ -51,11 +50,6 @@ const skills = [
     id: Math.floor(Math.random() * 100),
     name: "React",
     img: React,
-  },
-  {
-    id: Math.floor(Math.random() * 100),
-    name: "React Router",
-    img: ReactRouter,
   },
   {
     id: Math.floor(Math.random() * 100),

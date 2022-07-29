@@ -1,9 +1,7 @@
 .banner {
   padding: 15rem;
   background-image: url("../assets/images/main/blue.jpg");
-  background-position: top;
-  background-size: cover;
-  /* border: 1px solid red; */
+  background-size: 100% 100%;
 }
 
 .banner h1 {
@@ -11,14 +9,11 @@
   font-weight: 700;
   margin-bottom: 1.25rem;
   display: block;
-  /* text-decoration: underline; */
   font-style: italic;
   /* color: #01ffe7; */
-  color: #fff;
 }
 
 .banner p {
-  color: white;
   font-size: 1.1rem;
   width: 96%;
 }
@@ -45,13 +40,15 @@
 }
 
 .banner img {
-  border-radius: 17rem;
+  border-radius: 14rem;
 }
 
 @media screen and (max-width: 1200px) {
   .banner {
     padding: 5rem;
     height: 83vh;
+    background-size: cover;
+    background-position: top;
   }
 
   .banner h1 {

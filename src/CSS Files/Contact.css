@@ -1,7 +1,6 @@
 .contact {
   background-image: url("../assets/images/main/blue.jpg");
-  background-position: top center;
-  background-size: cover;
+  background-size: 100% 100%;
   padding: 4rem 0 13rem 0;
 }
 
@@ -11,7 +10,7 @@
 }
 
 .contact img {
-  border-radius: 17rem;
+  border-radius: 15rem;
   animation: updown 3s linear infinite;
 }
 
@@ -95,6 +94,8 @@ h1 {
 @media screen and (max-width: 540px) {
   .contact {
     padding-bottom: 4rem;
+    background-size: cover;
+    background-position: top;
   }
 
   .contact img {
