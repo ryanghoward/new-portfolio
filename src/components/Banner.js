@@ -37,7 +37,7 @@ export const Banner = () => {
                   1000,
                   "",
                   1000,
-                  "Tech Nerd",
+                  "Techie",
                   1000,
                   "",
                   1000,
