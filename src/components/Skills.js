@@ -43,7 +43,7 @@ export const Skills = () => {
                 responsive={responsive}
                 infinite={true}
                 autoPlay={true}
-                autoPlaySpeed={1000}
+                autoPlaySpeed={300}
                 customTransition='all 1000ms'
                 transitionDuration={1000}
               >
