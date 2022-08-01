@@ -5,7 +5,7 @@ import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
 import VHCL from "../assets/images/projects/VHCL.PNG";
 import FF from "../assets/images/projects/FakeflixHomepage.PNG";
-import code8 from "../assets/images/projects/code8.jpg";
+import WA from "../assets/images/projects/weatherapp.PNG";
 import "../CSS Files/Projects.css";
 
 export const Projects = () => {
@@ -32,6 +32,13 @@ export const Projects = () => {
       codeUrl: "https://github.com/BloomTech-Labs/underdog-devs-fe-a",
     },
     {
+      title: "Weather Or Not",
+      description: "Another Weather App",
+      imgUrl: WA,
+      siteUrl: "https://ryanghoward.github.io/weather-app/",
+      codeUrl: "https://github.com/ryanghoward/weather-app",
+    },
+    {
       title: "Potluck Planner",
       description: "Potluck Organizing & Planning App",
       imgUrl: PP,
@@ -44,13 +51,6 @@ export const Projects = () => {
       imgUrl: WMP,
       siteUrl: "https://water-my-plants-9-build-week.vercel.app/",
       codeUrl: "https://github.com/Build-Week-Water-My-Plants-8/front-end",
-    },
-    {
-      title: "Placeholder",
-      description: "Lorem Ipsum",
-      imgUrl: code8,
-      siteUrl: "/",
-      codeUrl: "/",
     },
   ];
   return (
