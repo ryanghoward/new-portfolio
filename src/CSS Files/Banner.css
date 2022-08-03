@@ -10,12 +10,12 @@
   margin-bottom: 1.25rem;
   display: block;
   font-style: italic;
-  /* color: #01ffe7; */
 }
 
 .banner p {
   font-size: 1.1rem;
   width: 96%;
+  margin-top: 1rem;
 }
 
 .banner button {
@@ -45,22 +45,14 @@
 
 @media screen and (max-width: 1200px) {
   .banner {
-    padding: 5rem;
-    height: 83vh;
+    position: relative;
+    height: 100vh;
     background-size: cover;
     background-position: top;
-  }
-
-  .banner h1 {
-    font-size: 2.7rem;
-  }
-
-  .banner h2 {
-    font-size: 1rem;
+    padding-top: 5rem;
   }
 
   .banner p {
-    color: white;
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
     line-height: 1rem;
@@ -68,7 +60,7 @@
   }
 
   .banner img {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .banner button {

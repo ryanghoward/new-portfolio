@@ -2,11 +2,10 @@ import "../CSS Files/Banner.css";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import me from "../assets/images/main/me.jpg";
-import { Link } from "react-scroll";
 
 /* Extra Packages */
-import { GlitchText } from "glitch-text";
 import Textra from "react-textra";
+import { Link } from "react-scroll";
 
 export const Banner = () => {
   return (
@@ -16,18 +15,17 @@ export const Banner = () => {
           <Row className='align-items-center'>
             <Col xs={12} md={6} xl={7}>
               <h2>Hello, my name is</h2>
-              <h1>
-                <GlitchText theme='purple' text={"Ryan G. Howard"} />
-              </h1>
+              <h1>Ryan G. Howard</h1>
               <h3>I am a</h3>
               <h2>
                 <Textra
                   effect='downTop'
                   stopDuration={1500}
                   data={[
-                    "Web Developer",
-                    "UI/UX Designer",
                     "Full Stack Developer",
+                    "UI/UX Designer",
+                    "Software Engineer",
+                    "Web Developer",
                     "Techie",
                   ]}
                 />
@@ -47,7 +45,7 @@ export const Banner = () => {
               </Link>
             </Col>
             <Col xs={12} md={6} xl={4}>
-              <img src={me} alt='Header' borderRadius='50%' />
+              <img src={me} alt='My Face' borderRadius='50%' />
             </Col>
           </Row>
         </Container>

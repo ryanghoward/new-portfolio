@@ -3,8 +3,6 @@ import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import MeAndJasper from "../assets/images/main/Jasper.png";
 
-import { GlitchText } from "glitch-text";
-
 export const Contact = () => {
   const initFormDetails = {
     firstName: "",
@@ -32,9 +30,7 @@ export const Contact = () => {
             <img src={MeAndJasper} alt='Contact Us'></img>
           </Col>
           <Col md={6}>
-            <h2>
-              <GlitchText theme='purple' text={"Get In Touch"} />
-            </h2>
+            <h2>Get In Touch</h2>
             <p>
               Shoot me an email at <i>ryghoward@gmail.com</i> or submit the form
               below
