@@ -9,7 +9,7 @@ import { GlitchText } from "glitch-text";
 
 export const Banner = () => {
   return (
-    <section className='banner' id='home'>
+    <section className='banner'>
       <div className='inner-banner'>
         <Container>
           <Row className='align-items-center'>

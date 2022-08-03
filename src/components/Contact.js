@@ -25,7 +25,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className='contact' id='contact'>
+    <section className='contact'>
       <Container>
         <Row>
           <Col md={5}>
