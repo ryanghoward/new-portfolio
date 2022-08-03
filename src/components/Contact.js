@@ -89,7 +89,7 @@ export const Contact = () => {
                     onChange={(e) => onFormUpdate("message", e.target.value)}
                   />
                   <button type='submit'>
-                    <span className='gradient-text'>Send</span>
+                    <span>Send</span>
                   </button>
                 </Col>
                 {status.message && (
