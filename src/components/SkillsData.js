@@ -1,4 +1,5 @@
 import JavaScript from "../assets/images/skills/javascript.png";
+// import TypeScript from "../assets/images/skills/typescript.svg";
 import HTML from "../assets/images/skills/html.png";
 import React from "../assets/images/skills/react.png";
 import Redux from "../assets/images/skills/redux.png";
@@ -41,6 +42,11 @@ const skills = [
     name: "JavaScript",
     img: JavaScript,
   },
+  // {
+  //   id: Math.floor(Math.random() * 100),
+  //   name: "TypeScript",
+  //   img: TypeScript,
+  // },
   {
     id: Math.floor(Math.random() * 100),
     name: "HTML",
