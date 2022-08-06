@@ -13,14 +13,14 @@ export const Navbar = () => {
 
   return (
     <div className='header'>
-      <Link to='home' smooth={true} duration={300}>
+      <Link to='banner' smooth={true} duration={300}>
         <h1>RGH</h1>
       </Link>
       <ul className={nav ? "nav-menu active" : "nav-menu "}>
         <Link
           className='navbar-link'
           onClick={handleClick}
-          to='home'
+          to='banner'
           smooth={true}
           duration={300}
         >
