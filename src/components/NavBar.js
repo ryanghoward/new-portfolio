@@ -29,7 +29,7 @@ export const Navbar = () => {
         <Link
           className='navbar-link'
           onClick={handleClick}
-          to='skills'
+          to='skill'
           smooth={true}
           duration={300}
         >
