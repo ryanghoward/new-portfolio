@@ -35,9 +35,9 @@ export const Skills = () => {
               <h2>Skills</h2>
               <p>These are the technologies I work with</p>
               <Carousel
+                className='skill-slider'
                 swipeable={false}
                 draggable={false}
-                className='skill-slider'
                 arrows={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
                 responsive={responsive}
