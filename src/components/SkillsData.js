@@ -24,6 +24,7 @@ import Vercel from "../assets/images/skills/vercel.png";
 import SQLite from "../assets/images/skills/SQLite.png";
 import PostgreSQL from "../assets/images/skills/PostgreSQL.png";
 import MySQL from "../assets/images/skills/mysql.png";
+import GraphQL from "../assets/images/skills/graphql.png";
 import MongoDB from "../assets/images/skills/mongodb.png";
 import Postman from "../assets/images/skills/postman.png";
 import Docker from "../assets/images/skills/docker.webp";
@@ -154,6 +155,11 @@ const skills = [
   },
   {
     id: Math.floor(Math.random() * 100),
+    name: "MongoDB",
+    img: MongoDB,
+  },
+  {
+    id: Math.floor(Math.random() * 100),
     name: "SQLite",
     img: SQLite,
   },
@@ -169,8 +175,8 @@ const skills = [
   },
   {
     id: Math.floor(Math.random() * 100),
-    name: "MongoDB",
-    img: MongoDB,
+    name: "GraphQL",
+    img: GraphQL,
   },
   {
     id: Math.floor(Math.random() * 100),
