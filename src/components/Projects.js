@@ -5,7 +5,7 @@ import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
 import VHCL from "../assets/images/projects/VHCL.PNG";
 import FF from "../assets/images/projects/FakeflixHomepage.PNG";
-import WA from "../assets/images/projects/weatherapp.PNG";
+import EX from "../assets/images/projects/Explore.PNG";
 import "../CSS Files/Projects.css";
 
 export const Projects = () => {
@@ -32,11 +32,11 @@ export const Projects = () => {
       codeUrl: "https://github.com/BloomTech-Labs/underdog-devs-fe-a",
     },
     {
-      title: "Weather Or Not",
-      description: "Another Weather App",
-      imgUrl: WA,
-      siteUrl: "https://ryanghoward.github.io/weather-app/",
-      codeUrl: "https://github.com/ryanghoward/weather-app",
+      title: "Explore",
+      description: "Travel Site Landing Page",
+      imgUrl: EX,
+      siteUrl: "https://ryanghoward.github.io/travel-site/",
+      codeUrl: "https://github.com/ryanghoward/travel-site",
     },
     {
       title: "Potluck Planner",
