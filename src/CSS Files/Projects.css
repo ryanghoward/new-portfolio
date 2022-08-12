@@ -28,9 +28,7 @@
 
 .proj-imgbox img {
   height: 20rem;
-  width: auto;
-  position: top center;
-  size: cover;
+  object-fit: cover; /* Best option, but cuts off edges of the images. May need new images */
   margin: 1rem 0;
 }
 
