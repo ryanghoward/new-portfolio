@@ -28,7 +28,7 @@
 
 .proj-imgbox img {
   height: 20rem;
-  object-fit: fill;
+  /* object-fit: scale-down; */ /*! Keep? */
   margin: 1rem 0;
 }
 
