@@ -25,18 +25,18 @@ export const Projects = () => {
       codeUrl: "https://github.com/ryanghoward/VHCL",
     },
     {
-      title: "Underdog Devs",
-      description: "Underdog Devs Website",
-      imgUrl: UDD,
-      siteUrl: "https://www.underdogdevs.org/",
-      codeUrl: "https://github.com/BloomTech-Labs/underdog-devs-fe-a",
-    },
-    {
       title: "Explore",
       description: "Travel Site Landing Page",
       imgUrl: EX,
       siteUrl: "https://ryanghoward.github.io/travel-site/",
       codeUrl: "https://github.com/ryanghoward/travel-site",
+    },
+    {
+      title: "Underdog Devs",
+      description: "Underdog Devs Website",
+      imgUrl: UDD,
+      siteUrl: "https://www.underdogdevs.org/",
+      codeUrl: "https://github.com/BloomTech-Labs/underdog-devs-fe-a",
     },
     {
       title: "Potluck Planner",
