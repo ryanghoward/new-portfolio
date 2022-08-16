@@ -4,7 +4,7 @@ import WMP from "../assets/images/projects/WaterMyPlants.PNG";
 import PP from "../assets/images/projects/PotluckPlanner.PNG";
 import UDD from "../assets/images/projects/UnderdogDevs.PNG";
 import VHCL from "../assets/images/projects/VHCL.PNG";
-import FF from "../assets/images/projects/FakeflixHomepage.PNG";
+import FF from "../assets/images/projects/Fakeflix.PNG";
 import EX from "../assets/images/projects/Explore.PNG";
 import "../CSS Files/Projects.css";
 

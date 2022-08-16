@@ -28,12 +28,13 @@
 
 .proj-imgbox img {
   height: 20rem;
-  object-fit: cover; /* Best option, but cuts off edges of the images. May need new images */
+  object-fit: fill;
   margin: 1rem 0;
 }
 
 .proj-text {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .proj-text h4 {
