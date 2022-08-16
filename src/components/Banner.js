@@ -31,12 +31,13 @@ export const Banner = () => {
                 />
               </h2>
               <p>
-                I am passionate about building excellent software that improves
-                the lives of those around me. I specialize in creating software
-                for clients ranging from individuals and small-businesses, all
-                the way up to large corporations. What could you accomplish if
-                you had a software expert available at your fingertips? Let's
-                find out! View my work and skills below.
+                Welcome to my website! Thanks for stopping by. A little about me
+                - Born and raised in Los Angeles, CA I recently chose to make a
+                career change and dove head first into the world of Coding/Web
+                Development. I completed the Full Stack Web Development boot
+                camp at Bloom Institute of Technology and loved every minute of
+                it. This site is the culmination of my work up to this point.
+                Enjoy!
               </p>
               <Link to='projects'>
                 <button>

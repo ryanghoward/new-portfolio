@@ -32,8 +32,8 @@ export const Contact = () => {
           <Col md={6}>
             <h2>Get In Touch</h2>
             <p>
-              Shoot me an email at <i>ryghoward@gmail.com</i> or submit the form
-              below
+              What could we build together? Let's find out! <br /> Shoot me an
+              email at <i>ryghoward@gmail.com</i> or submit the form below
             </p>
             <form
               method='POST'
