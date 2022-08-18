@@ -31,13 +31,12 @@ export const Banner = () => {
                 />
               </h2>
               <p>
-                Welcome to my website! Thanks for stopping by. A little about me
-                - Born and raised in Los Angeles, CA I recently chose to make a
-                career change and dove head first into the world of Coding/Web
-                Development. I completed the Full Stack Web Development boot
-                camp at Bloom Institute of Technology and loved every minute of
-                it. This site is the culmination of my work up to this point.
-                Enjoy!
+                Welcome to my website! Thanks for stopping by. Over the past
+                year I chose to make a career change and dove head first into
+                the world of Web Development and Coding. I completed the Full
+                Stack Web Development boot camp at Bloom Institute of Technology
+                and loved every minute of it. This site is the culmination of my
+                work up to this point. Enjoy!
               </p>
               <Link to='projects'>
                 <button>
