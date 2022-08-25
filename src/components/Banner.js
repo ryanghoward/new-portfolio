@@ -16,7 +16,6 @@ export const Banner = () => {
             <Col xs={12} md={6} xl={7}>
               <h2>Hello, my name is</h2>
               <h1>Ryan G. Howard</h1>
-              <h3>I am a</h3>
               <h2>
                 <Textra
                   effect='downTop'
@@ -26,7 +25,6 @@ export const Banner = () => {
                     "UI/UX Designer",
                     "Software Engineer",
                     "Web Developer",
-                    "Techie",
                   ]}
                 />
               </h2>
