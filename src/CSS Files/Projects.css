@@ -9,7 +9,6 @@
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
-  text-decoration: underline;
 }
 
 .project p {
@@ -29,7 +28,6 @@
 
 .proj-imgbox img {
   height: 20rem;
-  /* object-fit: scale-down; */ /*! Keep? */
   margin: 1rem 0;
 }
 
